@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KeyCar" id="6356FFA4-CB9C-24F9-22C8-261991608E27" version="3.5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 20:55:46 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6356FFA4-CB9C-24F9-22C8-261991608E27</designId>
+</OSDM_Design>

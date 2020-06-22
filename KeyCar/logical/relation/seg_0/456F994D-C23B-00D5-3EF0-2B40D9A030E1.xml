@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="compra" directorySegmentName="seg_0" id="456F994D-C23B-00D5-3EF0-2B40D9A030E1">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:08:37 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EDD7109F-CEC2-73B3-3CAB-38B1ABCE132B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C068C110-40C5-2967-4330-2C0C01F7E8EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="data_venda" id="65487433-A4C6-06E2-AA1D-EA74E0BF96D8">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 23:49:20 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="quantidade" id="BB50FCE5-8F48-1225-A5EE-3B5170810C2C">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:34:34 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="desconto" id="85D34E77-44EC-EB58-6849-780508359B6E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:35:53 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

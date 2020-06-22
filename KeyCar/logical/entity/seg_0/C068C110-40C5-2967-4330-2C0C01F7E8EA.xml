@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C068C110-40C5-2967-4330-2C0C01F7E8EA" name="PRODUTOS">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 20:56:56 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C4C24BC3-F74B-8516-158C-BB929E6C1CB7">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 20:59:19 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="21AE0ED1-F0CB-88D6-F074-3E30535897B0">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:01:01 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="A493F017-292D-C2C6-5DAF-B25BFB8CC774">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:01:55 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000 CHAR</dataTypeSize>
+<ownDataTypeParameters>5000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="80CE042D-BD15-9A2E-1012-98569BED66E6">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:02:23 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="34C7D915-62E8-B89E-F0D3-D73EEAC6E895">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:02:38 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="61685FBF-9B48-0AB7-DD7A-315A190A812B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:07:36 UTC</createdTime>
+<generatorID>423BFE1D-75F8-E4CB-0A1A-D62764CDE681</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<referedAttribute>88E75F92-95D2-9FAD-7EE1-F255BF32A830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="F59F53B0-FA31-19D0-3F48-8E5BE568E32F">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 23:52:34 UTC</createdTime>
+<generatorID>BF56E63E-A837-2B26-CDFB-EA7BF0475B4D</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<referedAttribute>B7E8B432-725C-6F90-E9DF-C93E78BFE5E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52E3C60C-3014-B4B1-F71A-D7A21D403D10" name="PRODUTOS PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 20:59:31 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

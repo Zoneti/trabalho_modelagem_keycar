@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fornece" directorySegmentName="seg_0" id="BF2B960A-537C-F549-3B20-261D39EE2D80">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:09:03 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>016F67EB-4A43-B7C2-C6A0-72BFEB836651</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C068C110-40C5-2967-4330-2C0C01F7E8EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="data_compra" id="16E9EC14-129F-884D-1D18-C4C990E0D4BF">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 23:49:50 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="quantidade" id="7BBC1AE8-1C27-840A-449A-0948D17CE8D5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:34:59 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="valor" id="6286721C-93F7-4224-2047-7F7805AF7794">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:35:18 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="desconto" id="F21C50E9-AF6D-7215-CFE5-9E6ADED77FBA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:35:34 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26FE0990-6FD7-0DC4-1589-2A186D106C56" name="ITEM_VENDA">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:06:46 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdItem" id="49ED761F-6923-3298-4840-86A560D72434">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:07:01 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ValorUnitario" id="F0C37D48-E12C-BE79-9804-4AE370898931">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:09:12 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantidade" id="E78AEB43-FB93-0C79-6161-34C396380550">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:09:20 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataVenda" id="0F0EE854-21B3-C9CB-909F-9668F89287B4">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:10:00 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdVenda1" id="A779F120-F52B-3D3F-321D-D3B364DB5445">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:16:21 UTC</createdTime>
+<generatorID>0D577BAD-293B-EC82-9B9A-A64812AA2D95</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<referedAttribute>5C977B43-FDC0-E6A1-C5F0-A01954AA3314</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProduto" id="B652FEE2-79CA-5276-7F60-70C2F4CCA9FE">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:34:15 UTC</createdTime>
+<generatorID>BEA7C490-3462-9DA0-343B-7CAF1E0612F7</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<referedAttribute>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="604618A9-6883-1055-C25E-82FC4A508AD5" name="ItemVenda PK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:07:09 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49ED761F-6923-3298-4840-86A560D72434</attributeRef>
+<attributeRef>A779F120-F52B-3D3F-321D-D3B364DB5445</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

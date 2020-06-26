@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="016F67EB-4A43-B7C2-C6A0-72BFEB836651" name="FORNECEDORES">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 20:56:11 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E297548-21B4-45A9-6328-AF79CB3045F1" name="VENDA">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:03:05 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
 <item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
@@ -15,74 +15,76 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdFornecedor" id="B9B53D06-1392-4C5F-FEA7-96D850FF413F">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 20:58:40 UTC</createdTime>
+<Attribute name="NumeroNotaFiscal" id="91A4FC79-A8D9-12C0-B996-A5765935A4D9">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:03:57 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
 <item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="8E35C63A-8B53-11C9-ABB0-99050D8AF1DB">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 21:41:49 UTC</createdTime>
+<Attribute name="DataVenda" id="7C8E8B3F-694F-5850-BB26-35ACA5D1D768">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:06:12 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
 <item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 CHAR</dataTypeSize>
-<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cnpj" id="32C3D893-C784-5C76-E4D3-811CA3E6EB4F">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 21:42:05 UTC</createdTime>
-<ownerDesignName>KeyCar</ownerDesignName>
-<engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="localizacao" id="4F262ED7-B3EA-3DD4-5519-37A535AD29A6">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 21:42:35 UTC</createdTime>
-<ownerDesignName>KeyCar</ownerDesignName>
-<engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 CHAR</dataTypeSize>
-<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_insercao" id="7F9FFA33-BA71-5660-0F97-662BBA0B7754">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 21:43:00 UTC</createdTime>
-<ownerDesignName>KeyCar</ownerDesignName>
-<engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ValorTotal" id="52E3A9E1-D60D-0159-9E54-D2C8F6E46FF6">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:06:25 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente1" id="986C2845-9293-A93C-8972-D1E296FEF3BC">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:13:04 UTC</createdTime>
+<generatorID>C834B5A6-16A6-F877-DF03-6BA69ECCF6C3</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<referedAttribute>C388DE89-6013-0E78-77E5-6B780774D21A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdVenda" id="5C977B43-FDC0-E6A1-C5F0-A01954AA3314">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:16:17 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="562D7BD3-8697-14D5-8253-F8090C6C6E67" name="FORNECEDORES PK">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 20:58:54 UTC</createdTime>
+<identifier id="0BC1419D-1AAC-BF0B-9769-429A4293526A" name="Venda PK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:03:27 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -90,7 +92,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B9B53D06-1392-4C5F-FEA7-96D850FF413F</attributeRef>
+<attributeRef>5C977B43-FDC0-E6A1-C5F0-A01954AA3314</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3820319-5F00-1A00-AE99-BBD691710325" name="Marca">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3820319-5F00-1A00-AE99-BBD691710325" name="MARCA">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 23:50:49 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-06-19 23:50:56 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-06-19 23:51:04 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,8 +46,9 @@
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 23:52:26 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

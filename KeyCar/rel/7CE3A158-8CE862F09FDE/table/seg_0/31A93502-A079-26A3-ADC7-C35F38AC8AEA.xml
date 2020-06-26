@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31A93502-A079-26A3-ADC7-C35F38AC8AEA" name="FORNECE">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FORNECEDORES_IdFornecedor" id="03A19FD3-DD74-A6EF-FFE6-06093AABE46D">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="298B6C8B-EEAE-388D-3E7B-69C83F9F12E3" referredColumn="52BC86FC-F66C-D3B1-A157-2E131652AB00"/>
+</associations>
+</Column>
+<Column name="PRODUTOS_idProduto" id="ADF514CB-67B3-79E2-B438-1CB28066E311">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3B90E28-37A6-9A9E-8275-4D9BC1EC3091" referredColumn="C3B8B9FA-8CFA-9E4F-F90D-5FBF7590EBE9"/>
+</associations>
+</Column>
+<Column name="data_compra" id="5588AF43-5050-D3AC-2102-28C26D5B2361">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>16E9EC14-129F-884D-1D18-C4C990E0D4BF</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="quantidade" id="65B85718-AD09-C2D9-1689-4874E9FD169F">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>7BBC1AE8-1C27-840A-449A-0948D17CE8D5</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="valor" id="0F991416-52D8-0ED6-E049-E52DAF6F3255">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>6286721C-93F7-4224-2047-7F7805AF7794</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="desconto" id="A43702A6-4E6B-5E47-30BC-A2AA1628EFFE">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>F21C50E9-AF6D-7215-CFE5-9E6ADED77FBA</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AC5C1E7-0831-DAE4-F37A-D4B357087CA0" name="fornece_PK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03A19FD3-DD74-A6EF-FFE6-06093AABE46D"/>
+<colUsage columnID="ADF514CB-67B3-79E2-B438-1CB28066E311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="629245BD-E108-0E4F-5B0F-6DC246664B03" name="fornece_FORNECEDORES_FK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>BF2B960A-537C-F549-3B20-261D39EE2D80</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03A19FD3-DD74-A6EF-FFE6-06093AABE46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DB87C6B-150D-D9E7-0165-3EBBFB95AC1E" name="fornece_PRODUTOS_FK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>BF2B960A-537C-F549-3B20-261D39EE2D80</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADF514CB-67B3-79E2-B438-1CB28066E311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

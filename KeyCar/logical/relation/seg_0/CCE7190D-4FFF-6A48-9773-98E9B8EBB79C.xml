@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="CCE7190D-4FFF-6A48-9773-98E9B8EBB79C">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 22:57:56 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<sourcePk>52E3C60C-3014-B4B1-F71A-D7A21D403D10</sourcePk>
+<targetPk>EB857B83-DA71-F543-7CD3-35AA39E30588</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C068C110-40C5-2967-4330-2C0C01F7E8EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72367C50-B4EF-D78D-C3B7-ED4E7328B394</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

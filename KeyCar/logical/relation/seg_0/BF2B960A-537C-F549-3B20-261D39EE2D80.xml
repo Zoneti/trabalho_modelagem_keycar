@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fornece" directorySegmentName="seg_0" id="BF2B960A-537C-F549-3B20-261D39EE2D80">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FORNECE" directorySegmentName="seg_0" id="BF2B960A-537C-F549-3B20-261D39EE2D80">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 21:09:03 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
@@ -21,7 +21,7 @@
 <createdTime>2020-06-19 23:49:50 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2020-06-19 21:34:59 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-06-19 21:35:18 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <createdTime>2020-06-19 21:35:34 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

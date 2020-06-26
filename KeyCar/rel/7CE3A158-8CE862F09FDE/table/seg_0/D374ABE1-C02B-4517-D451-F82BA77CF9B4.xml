@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D374ABE1-C02B-4517-D451-F82BA77CF9B4" name="TIPO_CLIENTE">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>2C1A8F4C-641F-184F-CE9C-CC3443572EB3</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="213CAC0D-4948-8489-06B3-0E86BD6F6329">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>69B30AE1-E0B5-897A-68A0-5DBD5946AE19</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="D5FCFDB9-A779-4282-712E-FC4B8E6ADFD4">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>9B463B9F-532B-362E-FABD-EDB74A4346FA</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sigla" id="4BFC738C-DE6F-8C82-0E53-C8F5DB26A55E">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>155E7168-CA26-87AA-DAE4-0A71524533A2</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88B61503-05E7-FC7D-F1E6-AE7C0AB24FE8" name="TIPO_CLIENTE_PK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>F90E6063-5BD7-20C2-3553-DE4FFAFADE06</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213CAC0D-4948-8489-06B3-0E86BD6F6329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

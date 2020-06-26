@@ -4,7 +4,7 @@
 <createdTime>2020-06-19 20:56:56 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="C4C24BC3-F74B-8516-158C-BB929E6C1CB7">
+<Attribute name="idProduto" id="C4C24BC3-F74B-8516-158C-BB929E6C1CB7">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 20:59:19 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-06-19 21:01:01 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-06-19 21:01:55 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,23 +58,11 @@
 <createdTime>2020-06-19 21:02:23 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="preco" id="34C7D915-62E8-B89E-F0D3-D73EEAC6E895">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-19 21:02:38 UTC</createdTime>
-<ownerDesignName>KeyCar</ownerDesignName>
-<engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="61685FBF-9B48-0AB7-DD7A-315A190A812B">
@@ -83,7 +71,7 @@
 <generatorID>423BFE1D-75F8-E4CB-0A1A-D62764CDE681</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <referedAttribute>88E75F92-95D2-9FAD-7EE1-F255BF32A830</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -97,7 +85,7 @@
 <generatorID>BF56E63E-A837-2B26-CDFB-EA7BF0475B4D</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
 </engineerTo>
 <referedAttribute>B7E8B432-725C-6F90-E9DF-C93E78BFE5E1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,14 +93,43 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="UnidadeMedida" id="A7C57B27-6FF4-8922-12A9-B5251A4436FD">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:36:27 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuantidadeMinima" id="76224208-F70D-2DDF-ABFA-B2518FBABCF1">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:47:53 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="52E3C60C-3014-B4B1-F71A-D7A21D403D10" name="PRODUTOS PK">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 20:59:31 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B4E3C413-2462-673D-6D88-71701FCA889F" value="true"/>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

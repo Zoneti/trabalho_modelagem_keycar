@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD91DDCC-1791-954B-DA01-7D34C1D1232C" name="PRODUTOS">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>C068C110-40C5-2967-4330-2C0C01F7E8EA</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProduto" id="C3B8B9FA-8CFA-9E4F-F90D-5FBF7590EBE9">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C9670A3A-0B8A-20E8-AACC-15FC9B050368">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>21AE0ED1-F0CB-88D6-F074-3E30535897B0</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="10B79539-718D-B6F7-C8EC-609025FB9B76">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>A493F017-292D-C2C6-5DAF-B25BFB8CC774</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000 CHAR</dataTypeSize>
+<ownDataTypeParameters>5000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="AF66B407-45F9-695A-8640-B1A7CB0C9F71">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>80CE042D-BD15-9A2E-1012-98569BED66E6</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_id" id="E4448B20-20BD-7953-BD29-82A3566FED60">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>61685FBF-9B48-0AB7-DD7A-315A190A812B</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F95196EC-A50C-8D1A-67DE-44BAC7D4B3DD" referredColumn="29EBF875-A000-30A1-FF21-BB7239FB2C5F"/>
+</associations>
+</Column>
+<Column name="MARCA_id" id="DA0A0F7B-94A2-CC55-F053-4DA6348ABBA5">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>F59F53B0-FA31-19D0-3F48-8E5BE568E32F</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB93ADDC-A6E0-A8C8-66EE-F7E2633398B8" referredColumn="5E0FF6FF-08F9-B4B2-C07C-CA7D7D24ED0C"/>
+</associations>
+</Column>
+<Column name="UnidadeMedida" id="4481BD39-DAC2-1D25-0FF5-E881B469B5B1">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:37:14 UTC</createdTime>
+<generatorID>A7C57B27-6FF4-8922-12A9-B5251A4436FD</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantidadeMinima" id="F5F81E8C-2961-4814-9213-6B864219D3C4">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:48:32 UTC</createdTime>
+<generatorID>76224208-F70D-2DDF-ABFA-B2518FBABCF1</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F486824E-0D95-7FAE-1A51-85A2A33DC59D" name="PRODUTOS_PK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>52E3C60C-3014-B4B1-F71A-D7A21D403D10</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B8B9FA-8CFA-9E4F-F90D-5FBF7590EBE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C276C89C-A268-AE53-0E87-5FB366E06D1A" name="PRODUTOS_TIPO_FK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<generatorID>423BFE1D-75F8-E4CB-0A1A-D62764CDE681</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4448B20-20BD-7953-BD29-82A3566FED60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2E40182-54D9-3192-884B-2390D34E8DBC" name="PRODUTOS_MARCA_FK">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:31:48 UTC</createdTime>
+<generatorID>BF56E63E-A837-2B26-CDFB-EA7BF0475B4D</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA0A0F7B-94A2-CC55-F053-4DA6348ABBA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

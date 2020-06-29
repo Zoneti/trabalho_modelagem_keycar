@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E599876-6CFF-D096-2D33-ACCF54D1F5DC" name="PERGUNTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B70D7FA0-7BB7-26D4-D654-27736990CAFC" name="PESQUISA">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:54:41 UTC</createdTime>
+<createdTime>2020-06-29 23:00:27 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
 <item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idPergunta" id="6F98F813-6EA7-4ABB-B7B4-3F37B359579E">
+<Attribute name="idPesquisa" id="2AA88065-B94C-D6A8-6510-F1671BF3117C">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:54:50 UTC</createdTime>
+<createdTime>2020-06-29 23:00:42 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
 <item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
@@ -27,36 +27,46 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pergunta" id="E285B1C9-6247-DA68-6AC0-FE154B29CE19">
+<Attribute name="id_cliente" id="17676210-E717-DB09-B831-F5AD078F991F">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:55:04 UTC</createdTime>
+<createdTime>2020-06-29 23:00:56 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
 <item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 CHAR</dataTypeSize>
-<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idResposta" id="1EFE3630-6CA0-820A-1F92-A39C5049F4F5">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:59:57 UTC</createdTime>
-<generatorID>CE0FB62A-1AE9-575B-BA84-C750DC69F822</generatorID>
-<ownerDesignName>KeyCarPesquisa</ownerDesignName>
-<engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
-</engineerTo>
-<referedAttribute>66FA7C49-FBF2-50E6-0719-6025D5A87A81</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="obrigatoria" id="AA9B6FD5-6469-9CA1-F9F6-A04E83C32632">
+<Attribute name="idVenda" id="AEF940A7-59AE-6A84-9E4C-CFDF531D907C">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 23:00:08 UTC</createdTime>
+<createdTime>2020-06-29 23:01:08 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="submetida" id="3F364607-AD03-4F0C-A416-C1398517B288">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:01:21 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presencial" id="46F326DE-46DF-A2FC-551A-854345662B61">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:01:58 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
 <item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
@@ -69,16 +79,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="61CB8C73-89D8-84B9-CF29-1CE3BC795430" name="PERGUNTAS PK">
+<identifier id="A7865B21-890C-0D37-C516-2C38C458340D" name="PESQUISA PK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:55:02 UTC</createdTime>
+<createdTime>2020-06-29 23:00:55 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
 <item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6F98F813-6EA7-4ABB-B7B4-3F37B359579E</attributeRef>
+<attributeRef>2AA88065-B94C-D6A8-6510-F1671BF3117C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contem" directorySegmentName="seg_0" id="1533ACB0-647D-4386-B435-05BC39784D77">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:02:16 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+</engineerTo>
+<sourcePk>89B85B52-E731-8354-49C2-9B3A8EC3602B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A9A4DABA-FE50-5D61-FA08-54862F21EB1F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B70D7FA0-7BB7-26D4-D654-27736990CAFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

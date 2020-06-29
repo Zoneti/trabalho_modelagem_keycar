@@ -1,12 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="CE0FB62A-1AE9-575B-BA84-C750DC69F822">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tem" directorySegmentName="seg_0" id="CE0FB62A-1AE9-575B-BA84-C750DC69F822">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-29 22:56:58 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
 </engineerTo>
 <sourcePk>61CB8C73-89D8-84B9-CF29-1CE3BC795430</sourcePk>
+<targetPk>89B85B52-E731-8354-49C2-9B3A8EC3602B</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>

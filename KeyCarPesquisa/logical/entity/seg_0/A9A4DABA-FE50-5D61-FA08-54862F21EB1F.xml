@@ -4,7 +4,7 @@
 <createdTime>2020-06-29 22:55:36 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idResposta" id="66FA7C49-FBF2-50E6-0719-6025D5A87A81">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:59:43 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="resposta" id="B6A51B27-C2DF-ED77-40C7-BA3081A40E9E">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-29 22:55:54 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +46,7 @@
 <createdTime>2020-06-29 22:56:29 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,4 +55,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89B85B52-E731-8354-49C2-9B3A8EC3602B" name="RESPOSTA PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:59:55 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66FA7C49-FBF2-50E6-0719-6025D5A87A81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

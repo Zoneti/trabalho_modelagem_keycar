@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF604EEF-D5EA-623D-32ED-0FB82899AEC8" name="PESQUISA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>B70D7FA0-7BB7-26D4-D654-27736990CAFC</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPesquisa" id="03A62365-AD0E-8448-AD51-E83AEF89603B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>2AA88065-B94C-D6A8-6510-F1671BF3117C</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="9530FD99-63F6-8CA3-14B7-D84CC1A8DCB9">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>17676210-E717-DB09-B831-F5AD078F991F</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idVenda" id="269E08DA-1D4B-584D-4B79-580E2D72AE38">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>AEF940A7-59AE-6A84-9E4C-CFDF531D907C</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="submetida" id="EAD59B82-30BE-286B-9321-47A299CCCE41">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>3F364607-AD03-4F0C-A416-C1398517B288</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presencial" id="CE8C2083-9889-5723-8CDA-D6338AC406B2">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>46F326DE-46DF-A2FC-551A-854345662B61</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF18BEA5-1FF3-0678-833A-4EBA7FBDE725" name="PESQUISA_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 23:03:42 UTC</createdTime>
+<generatorID>A7865B21-890C-0D37-C516-2C38C458340D</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03A62365-AD0E-8448-AD51-E83AEF89603B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ValorUnitario" id="F0C37D48-E12C-BE79-9804-4AE370898931">
+<Attribute name="valorUnitario" id="F0C37D48-E12C-BE79-9804-4AE370898931">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:09:12 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Quantidade" id="E78AEB43-FB93-0C79-6161-34C396380550">
+<Attribute name="quantidade" id="E78AEB43-FB93-0C79-6161-34C396380550">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:09:20 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -54,7 +54,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataVenda" id="0F0EE854-21B3-C9CB-909F-9668F89287B4">
+<Attribute name="dataVenda" id="0F0EE854-21B3-C9CB-909F-9668F89287B4">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:10:00 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>

@@ -15,7 +15,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NumeroNotaFiscal" id="91A4FC79-A8D9-12C0-B996-A5765935A4D9">
+<Attribute name="IdVenda" id="5C977B43-FDC0-E6A1-C5F0-A01954AA3314">
+<createdBy>mpenna</createdBy>
+<createdTime>2020-06-24 23:16:17 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroNotaFiscal" id="91A4FC79-A8D9-12C0-B996-A5765935A4D9">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:03:57 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -29,7 +39,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataVenda" id="7C8E8B3F-694F-5850-BB26-35ACA5D1D768">
+<Attribute name="dataVenda" id="7C8E8B3F-694F-5850-BB26-35ACA5D1D768">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:06:12 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -42,7 +52,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ValorTotal" id="52E3A9E1-D60D-0159-9E54-D2C8F6E46FF6">
+<Attribute name="valorTotal" id="52E3A9E1-D60D-0159-9E54-D2C8F6E46FF6">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:06:25 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -68,16 +78,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdVenda" id="5C977B43-FDC0-E6A1-C5F0-A01954AA3314">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:16:17 UTC</createdTime>
-<ownerDesignName>KeyCar</ownerDesignName>
-<engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
-</engineerTo>
-<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

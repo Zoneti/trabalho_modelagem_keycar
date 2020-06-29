@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="958D10ED-CF2F-2E79-0745-37B8E09FCA3B" name="ITEM_VENDA">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="153FA141-5F37-2498-B759-0C78C8509257" name="ITEM_VENDA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>26FE0990-6FD7-0DC4-1589-2A186D106C56</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="IdItem" id="FD2B2987-E4EB-7794-6959-D023AE9B36CC">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<Column name="IdItem" id="98293FDC-1DE8-D501-D01C-1FF592E8B628">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>49ED761F-6923-3298-4840-86A560D72434</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ValorUnitario" id="20176D20-747C-0110-CEEE-4C4AE8F08C28">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<Column name="valorUnitario" id="444A9DA5-8879-A37A-452F-75B2381B3B58">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>F0C37D48-E12C-BE79-9804-4AE370898931</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Quantidade" id="DF92722B-786E-0D14-A7C4-4D6F208CF0F3">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<Column name="quantidade" id="65D707FC-6D60-2D85-81AC-19D7DC03A49D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>E78AEB43-FB93-0C79-6161-34C396380550</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DataVenda" id="D0619E77-D0D5-9CFD-2C4B-D5EF876518C3">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<Column name="dataVenda" id="FEA2F198-201D-5157-3E3E-00F7FE33EF94">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>0F0EE854-21B3-C9CB-909F-9668F89287B4</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -56,9 +56,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Venda_IdVenda" id="CA6C2BB4-21FF-8A39-A1B8-7BC0DF067277">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<Column name="VENDA_IdVenda" id="D355B4A5-F359-B2D4-2AA8-374875B8F7B3">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>A779F120-F52B-3D3F-321D-D3B364DB5445</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <use>0</use>
@@ -66,12 +66,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1B9A5586-C47E-475E-2198-DF4EF32747BC" referredColumn="1976DDDA-959D-F9B1-0832-A8A07D466551"/>
+<colAssociation fkAssociation="AA2BF7C7-1B8B-E90D-83A2-CAEEFA6043CE" referredColumn="2EF667D4-39E5-3F69-53F7-2912E28A30DA"/>
 </associations>
 </Column>
-<Column name="PRODUTOS_idProduto" id="0A631D9C-7EAC-ACF0-6085-FF260BFF766A">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:37:14 UTC</createdTime>
+<Column name="PRODUTOS_idProduto" id="F3D590D8-8ED7-CF7D-8E8C-B907E8AD22EA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>B652FEE2-79CA-5276-7F60-70C2F4CCA9FE</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,44 +81,44 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="405D791D-C304-2261-7633-C60A3660E0C0" referredColumn="C3B8B9FA-8CFA-9E4F-F90D-5FBF7590EBE9"/>
+<colAssociation fkAssociation="0136F90F-AE15-EFFF-5411-084D9F208086" referredColumn="26279D6C-209F-AF79-E3A1-5BCBFC8DE7C1"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D8D693E8-70E5-6F82-D94F-42D9165E432F" name="ItemVenda_PK">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:47 UTC</createdTime>
+<ind_PK_UK id="AD55AA9F-4C8B-1653-7513-A7C5C7DAE774" name="ITEM_VENDA_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>604618A9-6883-1055-C25E-82FC4A508AD5</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FD2B2987-E4EB-7794-6959-D023AE9B36CC"/>
-<colUsage columnID="CA6C2BB4-21FF-8A39-A1B8-7BC0DF067277"/>
+<colUsage columnID="98293FDC-1DE8-D501-D01C-1FF592E8B628"/>
+<colUsage columnID="D355B4A5-F359-B2D4-2AA8-374875B8F7B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B482CB0B-182D-F667-305A-6462F188CD7E" name="ItemVenda_Venda_FK">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:31:48 UTC</createdTime>
+<ind_PK_UK id="CBE956C6-DAE4-76E7-B934-9004C78C9A1C" name="ITEM_VENDA_VENDA_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>0D577BAD-293B-EC82-9B9A-A64812AA2D95</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CA6C2BB4-21FF-8A39-A1B8-7BC0DF067277"/>
+<colUsage columnID="D355B4A5-F359-B2D4-2AA8-374875B8F7B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3553B8AD-3F21-A727-31F0-38965011F276" name="ItemVenda_PRODUTOS_FK">
-<createdBy>mpenna</createdBy>
-<createdTime>2020-06-24 23:37:14 UTC</createdTime>
+<ind_PK_UK id="9D8E4982-928D-BD82-C660-680943B42E8A" name="ITEM_VENDA_PRODUTOS_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:53:20 UTC</createdTime>
 <generatorID>BEA7C490-3462-9DA0-343B-7CAF1E0612F7</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0A631D9C-7EAC-ACF0-6085-FF260BFF766A"/>
+<colUsage columnID="F3D590D8-8ED7-CF7D-8E8C-B907E8AD22EA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

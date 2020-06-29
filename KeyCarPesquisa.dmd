@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KeyCarPesquisa" id="81C94A45-81D4-70E1-CDB4-50FEB666130B" version="3.5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:54:25 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81C94A45-81D4-70E1-CDB4-50FEB666130B</designId>
+</OSDM_Design>

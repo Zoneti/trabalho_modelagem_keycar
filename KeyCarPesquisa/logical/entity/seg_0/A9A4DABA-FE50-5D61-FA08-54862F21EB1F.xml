@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9A4DABA-FE50-5D61-FA08-54862F21EB1F" name="RESPOSTA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:55:36 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="resposta" id="B6A51B27-C2DF-ED77-40C7-BA3081A40E9E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:55:54 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="score" id="CB5D432E-0A21-6DB4-B3C9-3AB9867883E7">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-29 22:56:29 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="5A9821FF-2883-5616-5674-2D539B11E767" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

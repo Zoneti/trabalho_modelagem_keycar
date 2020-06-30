@@ -11,6 +11,7 @@
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
+<<<<<<< HEAD
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B58C770C-7893-0614-EC69-3AC0E6801C30</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
@@ -18,3 +19,12 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
+=======
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B58C770C-7893-0614-EC69-3AC0E6801C30</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8A1BA85C-B269-817D-CE43-847371889852</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
+>>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8

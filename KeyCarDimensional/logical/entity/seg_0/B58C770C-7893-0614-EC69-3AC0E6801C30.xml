@@ -117,6 +117,47 @@
 <dataTypeSize>2 CHAR</dataTypeSize>
 <ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<<<<<<< HEAD
+=======
+<Attribute name="venda_id" id="F9580DD4-1ED9-4CCD-E2D6-5DC0B0455361">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:05:17 UTC</createdTime>
+<generatorID>AF9A08E6-4032-F08E-B71A-54F64BFA1CD3</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<referedAttribute>D64DC60B-6383-A34A-F7AA-407D5BE7A53A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="compra_id" id="5AEEB66C-6521-5B4E-6CB0-48CF5B48A932">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:06:26 UTC</createdTime>
+<generatorID>CAC35ED8-C459-D304-0DB3-159CC8E5F8CD</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<referedAttribute>4E380F96-65EA-68B9-54C5-67B61857FC27</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="compra_id1" id="DE7365C4-A490-6393-80A5-720ACDA8C2D1">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:06:53 UTC</createdTime>
+<generatorID>4F382CE8-E42E-E0A1-6F2D-59FF2BAF9049</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<referedAttribute>4E380F96-65EA-68B9-54C5-67B61857FC27</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+>>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="95867178-57B5-5778-68CD-4DF4CD6695EB" name="DATA_DIM PK">
@@ -132,4 +173,8 @@
 </usedAttributes>
 </identifier>
 </identifiers>
+<<<<<<< HEAD
 </Entity>
+=======
+</Entity>
+>>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8

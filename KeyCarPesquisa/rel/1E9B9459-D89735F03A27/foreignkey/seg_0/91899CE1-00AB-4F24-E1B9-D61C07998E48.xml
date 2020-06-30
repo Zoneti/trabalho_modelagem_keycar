@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91899CE1-00AB-4F24-E1B9-D61C07998E48" containerWithKeyObject="BBA9CBA0-6C9A-70DD-2DDD-77ECD4C15E11" localFKIndex="D21D140E-A7E2-5EA1-2B9D-89332C511ED4" name="contem_RESPOSTA_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:12:07 UTC</createdTime>
+<generatorID>1533ACB0-647D-4386-B435-05BC39784D77</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<referredTableLongName>RESPOSTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C77646C-AF71-6934-B256-17FED9AE044C</referredTableID>
+<keyObject>AF793B07-88C0-4A9A-EE2C-867FDC24E53F</keyObject>
+<referredKeyID>AF793B07-88C0-4A9A-EE2C-867FDC24E53F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idResposta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

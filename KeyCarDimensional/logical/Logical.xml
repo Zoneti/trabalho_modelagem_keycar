@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="614CAFB8-8DCD-7524-E373-5812D3AD2CC3" mainViewID="708E2DC1-B572-79DB-1748-9613F72D1514">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:44:14 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

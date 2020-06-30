@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4805182-2AE8-CE1C-A263-AC7A863177B4" containerWithKeyObject="1B222B29-FD4B-346B-D366-72FFA61F6386" localFKIndex="7A420240-9BEF-1ED8-B96A-CFAAC210A196" name="tem_CARRO_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:13:33 UTC</createdTime>
+<generatorID>9028C169-AB42-D4D2-2D78-01C9773A3881</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<referredTableLongName>CARRO_DIM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81686663-87DA-ED68-E027-F7485F066777</referredTableID>
+<keyObject>9B22F476-B6A6-4A8A-53D6-CDA4C49357A4</keyObject>
+<referredKeyID>9B22F476-B6A6-4A8A-53D6-CDA4C49357A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>carro_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

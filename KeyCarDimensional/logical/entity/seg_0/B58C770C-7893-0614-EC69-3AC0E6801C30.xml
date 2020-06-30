@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B58C770C-7893-0614-EC69-3AC0E6801C30" name="DATA_DIM">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:45:11 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_id" id="E4B63AA3-499E-DF51-816C-4A72F40D9E72">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:45:23 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="8A507B35-FEA0-4F03-12B9-A9FC0AF7FC2E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:47:27 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_char" id="E6DCE440-69A3-13A5-85F7-3894E207D940">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:49:05 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia" id="25726336-5F85-3922-941B-222051771779">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:45:34 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mes" id="B2974E5F-66F1-FCF3-9C99-9D1E61563E9E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:47:44 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano" id="5998656E-C659-68F2-EF42-76D43F2F3EF6">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:48:02 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora24" id="742BF51D-DD61-34B1-C741-4B6404AE7FB0">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:48:17 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minuto" id="0B23E615-FACA-8A0C-C1D6-B141EBB27D63">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:48:38 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95867178-57B5-5778-68CD-4DF4CD6695EB" name="DATA_DIM PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:47:42 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4B63AA3-499E-DF51-816C-4A72F40D9E72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

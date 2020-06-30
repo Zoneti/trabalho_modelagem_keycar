@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB2BA241-1016-2B23-D64C-133D1820095E" name="MARCA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F3B7A9F-CDE1-67C8-3913-32C81CC53EA6" name="MARCA">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>B3820319-5F00-1A00-AE99-BBD691710325</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="2A69BDBA-66DD-0C0A-B129-D5AC2A1911CE">
+<Column name="id" id="DDF0FDBD-6D3B-674C-62BB-56CF3466D808">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>B7E8B432-725C-6F90-E9DF-C93E78BFE5E1</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome" id="D649113D-5792-D491-1A5F-45FE94328E98">
+<Column name="nome" id="01B1379E-C30C-3A9A-AC99-9D37241F29A9">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>6D5A6C27-A944-1718-9788-C7361041E5E0</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,16 +33,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EB1C2B31-92AC-4E86-3C8D-0BCABCEC317B" name="MARCA_PK">
+<ind_PK_UK id="541DFA96-5C40-8257-D2FE-B31911B77266" name="MARCA_PK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>BBBDA0F2-C52D-9A5B-A8E0-F32D93E5537F</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2A69BDBA-66DD-0C0A-B129-D5AC2A1911CE"/>
+<colUsage columnID="DDF0FDBD-6D3B-674C-62BB-56CF3466D808"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

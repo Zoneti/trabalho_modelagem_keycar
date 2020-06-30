@@ -1,25 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA5A6BA2-EC6C-C5D8-CF38-4B71FAE415D0" name="VENDA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F929612-BCEF-1982-79FD-E7128500754B" name="VENDA">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>4E297548-21B4-45A9-6328-AF79CB3045F1</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="IdVenda" id="2EF667D4-39E5-3F69-53F7-2912E28A30DA">
+<Column name="IdVenda" id="DCAA9DAA-A9D7-BF59-06AF-58F6A4B7BE37">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>5C977B43-FDC0-E6A1-C5F0-A01954AA3314</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="numeroNotaFiscal" id="2B1E2A24-BDC3-D8A4-1095-5B2824053CC1">
+<Column name="numeroNotaFiscal" id="B0B4AFC5-9DB1-8E06-347B-A964E87D9AE7">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>91A4FC79-A8D9-12C0-B996-A5765935A4D9</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dataVenda" id="93C77615-2404-57C9-83F0-CCF2CC734B8B">
+<Column name="dataVenda" id="5C7C759D-BDFC-C9D9-0DBF-BB4EFFB52962">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>7C8E8B3F-694F-5850-BB26-35ACA5D1D768</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valorTotal" id="9A196777-13E4-D599-B818-57E7F91A15F3">
+<Column name="valorTotal" id="7CC2BBB0-AA57-A980-C4F0-8C4A5A81DA91">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>52E3A9E1-D60D-0159-9E54-D2C8F6E46FF6</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -55,9 +55,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CLIENTES_IdCliente" id="C88CB309-8DAC-AC29-4567-ECA44C2946B3">
+<Column name="CLIENTES_IdCliente" id="8A4C92F1-94CD-C0B9-9968-CFC4FFF406FA">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>986C2845-9293-A93C-8972-D1E296FEF3BC</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,32 +67,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D3320826-377C-497F-A67E-770B9102485F" referredColumn="1C17CF0E-C26F-3DD3-FE1A-FB9DDB082D7D"/>
+<colAssociation fkAssociation="9B37C98C-6C28-86DE-4074-2404E4444100" referredColumn="B6E11495-4745-30BB-031E-58A7E1BAD3BA"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3D89331D-2EB2-70EF-9ED6-06BC0FE0E346" name="VENDA_PK">
+<ind_PK_UK id="F04D7B33-0880-6E7B-0210-D86229F24C58" name="VENDA_PK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>0BC1419D-1AAC-BF0B-9769-429A4293526A</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2EF667D4-39E5-3F69-53F7-2912E28A30DA"/>
+<colUsage columnID="DCAA9DAA-A9D7-BF59-06AF-58F6A4B7BE37"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9EC52326-1E67-5ABC-0584-1957589181D2" name="VENDA_CLIENTES_FK">
+<ind_PK_UK id="88914B52-426E-E476-0082-964103901F2F" name="VENDA_CLIENTES_FK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>C834B5A6-16A6-F877-DF03-6BA69ECCF6C3</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C88CB309-8DAC-AC29-4567-ECA44C2946B3"/>
+<colUsage columnID="8A4C92F1-94CD-C0B9-9968-CFC4FFF406FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

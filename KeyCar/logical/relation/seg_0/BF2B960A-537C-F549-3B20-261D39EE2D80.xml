@@ -4,7 +4,7 @@
 <createdTime>2020-06-19 21:09:03 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
@@ -21,7 +21,7 @@
 <createdTime>2020-06-19 23:49:50 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2020-06-19 21:34:59 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-06-19 21:35:18 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,12 +57,25 @@
 <createdTime>2020-06-19 21:35:34 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="7CE3A158-BCB0-538F-807B-8CE862F09FDE" value="true"/>
+<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="data_entrega" id="8892EBD1-B148-D00A-230C-BC2BBF86C498">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 19:39:15 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 </attributes>

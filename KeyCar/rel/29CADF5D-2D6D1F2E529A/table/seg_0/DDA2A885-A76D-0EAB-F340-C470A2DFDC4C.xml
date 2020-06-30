@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E4BC07F-E91C-4A25-EED8-202A0FEC8413" name="CLIENTES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDA2A885-A76D-0EAB-F340-C470A2DFDC4C" name="CLIENTES">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>EDD7109F-CEC2-73B3-3CAB-38B1ABCE132B</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="IdCliente" id="1C17CF0E-C26F-3DD3-FE1A-FB9DDB082D7D">
+<Column name="IdCliente" id="B6E11495-4745-30BB-031E-58A7E1BAD3BA">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>C388DE89-6013-0E78-77E5-6B780774D21A</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome" id="393E20A9-D9AD-829D-E181-96D18B114B4F">
+<Column name="nome" id="D853832C-1403-A2D8-2D1D-F9E4223FCCF5">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>A8FAF0F3-BC89-6256-AF08-419C2AB51FB8</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="documento" id="F5C34A2E-3C7E-07B9-4B1B-5F45F00505FD">
+<Column name="documento" id="24B5A438-CD81-B9F6-13BC-6ADA16D3B3AC">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>F4192CD0-C7DD-FB44-1221-DCB56C001A97</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="localizacao" id="1A7B46C9-9AD7-0EB0-7BCC-6CAA0D06F888">
+<Column name="localizacao" id="79EA2129-EA8D-7A28-A8F7-40813B5CC7AD">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>6D494D1A-CD72-F908-6DBA-34394DCF9C04</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,9 +55,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="inadimplante" id="7AC70C8B-E9F6-C881-EFA8-6721E6E72D11">
+<Column name="inadimplante" id="D21C0053-D0AD-6289-B048-25EE458AA2C4">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>7B12DCFC-99A1-EAC7-BFBA-93849D1B37B4</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,9 +67,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO_CLIENTE_id" id="6D1821F4-AE82-2B75-C109-DB6653525959">
+<Column name="TIPO_CLIENTE_id" id="55F4681D-5FE2-B100-4649-DCD533DC40E7">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>15B312D5-1A13-A013-844C-B1184D625F3C</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -79,12 +79,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C9835872-1C74-4FC2-A239-8CD0C7553BFE" referredColumn="A7F264F9-51F2-80EC-CD41-D13FAF28FC77"/>
+<colAssociation fkAssociation="B2180575-0750-D753-BE40-59A8121C399C" referredColumn="F9F8B3C1-4066-183B-6EC7-26FDA840D703"/>
 </associations>
 </Column>
-<Column name="data_insercao" id="02BFAEB0-D8DC-AC7C-BF8B-A7FE72BF56E3">
+<Column name="data_insercao" id="486248D3-D6AD-C6CE-7106-1C8E0A8912B5">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>709DB1F2-F994-BF9D-4757-39CB5DA1D267</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,27 +95,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D6B64A82-C187-7F10-19D0-8659BB0D112A" name="CLIENTES_PK">
+<ind_PK_UK id="31BEB611-66F8-8EF5-761F-60F25D70E881" name="CLIENTES_PK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>8872845C-5986-21D9-2799-7F4E4F4D8AF4</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1C17CF0E-C26F-3DD3-FE1A-FB9DDB082D7D"/>
+<colUsage columnID="B6E11495-4745-30BB-031E-58A7E1BAD3BA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B8DEAF46-1CBE-6197-E3B9-089ED6255927" name="CLIENTES_TIPO_CLIENTE_FK">
+<ind_PK_UK id="06316F75-4244-403E-1D2F-9D43FBF314CE" name="CLIENTES_TIPO_CLIENTE_FK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>A8152986-44A8-8504-EC12-90DEA3732FAB</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D1821F4-AE82-2B75-C109-DB6653525959"/>
+<colUsage columnID="55F4681D-5FE2-B100-4649-DCD533DC40E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

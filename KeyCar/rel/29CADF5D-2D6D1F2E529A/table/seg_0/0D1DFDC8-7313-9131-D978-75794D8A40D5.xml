@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61EFBF15-50DC-2DCB-FA20-136631AF8F5F" name="compra">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D1DFDC8-7313-9131-D978-75794D8A40D5" name="compra">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CLIENTES_IdCliente" id="16BF3ED4-2F66-0622-0926-7FAB7FB8E117">
+<Column name="CLIENTES_IdCliente" id="A70A2FFD-1BA6-CA71-1425-481FDBE167F8">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DA5451FE-89CB-5BA4-0A80-A48F9FD108CB" referredColumn="1C17CF0E-C26F-3DD3-FE1A-FB9DDB082D7D"/>
+<colAssociation fkAssociation="3B774565-FCCD-AF26-B45B-50C6827FD9B3" referredColumn="B6E11495-4745-30BB-031E-58A7E1BAD3BA"/>
 </associations>
 </Column>
-<Column name="PRODUTOS_idProduto" id="031F12C3-A0A7-68F1-6A5F-C65C38FD8F2C">
+<Column name="PRODUTOS_idProduto" id="911A8054-488C-827F-BD2F-6F10C7C59774">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,12 +32,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="830832A1-D244-93C9-5ADD-E159FAFF072E" referredColumn="26279D6C-209F-AF79-E3A1-5BCBFC8DE7C1"/>
+<colAssociation fkAssociation="47B034CD-75B5-21FF-61D1-84B7BE2F3B89" referredColumn="1478879E-375B-4586-6D7F-68F603EE1C80"/>
 </associations>
 </Column>
-<Column name="data_venda" id="F4B77EC4-A29D-6715-6EF3-F173FE4DA4EE">
+<Column name="data_venda" id="ABE38DDF-B737-060A-6D03-D296E50A6BC0">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>65487433-A4C6-06E2-AA1D-EA74E0BF96D8</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,9 +48,9 @@
 <isRelationshipColumn>true</isRelationshipColumn>
 <isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
 </Column>
-<Column name="quantidade" id="487D9E2A-DD73-FA79-9422-160072054FC6">
+<Column name="quantidade" id="8E071345-3632-1FBF-CB5C-06905CAC6AB6">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>BB50FCE5-8F48-1225-A5EE-3B5170810C2C</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,9 +61,9 @@
 <isRelationshipColumn>true</isRelationshipColumn>
 <isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
 </Column>
-<Column name="desconto" id="2956DE0B-E85B-8D21-3507-DC9C3797A630">
+<Column name="desconto" id="9989DFAA-BE62-A0B8-9265-640ED3AA70BC">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>85D34E77-44EC-EB58-6849-780508359B6E</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -76,38 +76,38 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9E33D919-F9E3-592F-1B26-BE67390707DF" name="compra_PK">
+<ind_PK_UK id="A034C81B-6D3B-5BF9-748C-9F0D15F95DFD" name="compra_PK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="16BF3ED4-2F66-0622-0926-7FAB7FB8E117"/>
-<colUsage columnID="031F12C3-A0A7-68F1-6A5F-C65C38FD8F2C"/>
+<colUsage columnID="A70A2FFD-1BA6-CA71-1425-481FDBE167F8"/>
+<colUsage columnID="911A8054-488C-827F-BD2F-6F10C7C59774"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="89F88CD4-94D6-7C49-3262-EF278F7A46DE" name="compra_CLIENTES_FK">
+<ind_PK_UK id="E9936A5E-C401-BB54-66DC-C688CA2EEBD6" name="compra_CLIENTES_FK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>456F994D-C23B-00D5-3EF0-2B40D9A030E1</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="16BF3ED4-2F66-0622-0926-7FAB7FB8E117"/>
+<colUsage columnID="A70A2FFD-1BA6-CA71-1425-481FDBE167F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AEDA66BF-CA64-5116-697E-27A72ECF086D" name="compra_PRODUTOS_FK">
+<ind_PK_UK id="3ABF5BC5-D023-63A1-EB84-35840B6FCD1B" name="compra_PRODUTOS_FK">
 <createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 22:53:20 UTC</createdTime>
+<createdTime>2020-06-30 19:42:44 UTC</createdTime>
 <generatorID>456F994D-C23B-00D5-3EF0-2B40D9A030E1</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="031F12C3-A0A7-68F1-6A5F-C65C38FD8F2C"/>
+<colUsage columnID="911A8054-488C-827F-BD2F-6F10C7C59774"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

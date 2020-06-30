@@ -7,7 +7,6 @@
 <item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
 </engineerTo>
 <sourcePk>0EC67DE5-7EF3-A18B-194D-A4B4F74EB10C</sourcePk>
-<<<<<<< HEAD
 <targetPk>95867178-57B5-5778-68CD-4DF4CD6695EB</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
@@ -19,15 +18,3 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
-=======
-<identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>43349635-7E78-B875-65FD-D165BA41711C</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>B58C770C-7893-0614-EC69-3AC0E6801C30</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-</Relation>
->>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8

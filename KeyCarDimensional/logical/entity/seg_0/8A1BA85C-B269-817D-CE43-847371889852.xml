@@ -77,7 +77,6 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<<<<<<< HEAD
 <Attribute name="data_id" id="C5F4305F-EC2F-2A92-FB16-233521562411">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-30 20:18:41 UTC</createdTime>
@@ -92,8 +91,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-=======
->>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="87D424D5-F5EB-9783-01E4-55E189E47A17" name="VENDA_FACT PK">
@@ -109,8 +106,4 @@
 </usedAttributes>
 </identifier>
 </identifiers>
-<<<<<<< HEAD
 </Entity>
-=======
-</Entity>
->>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8

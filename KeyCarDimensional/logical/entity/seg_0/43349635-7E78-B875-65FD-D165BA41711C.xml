@@ -61,7 +61,6 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<<<<<<< HEAD
 <Attribute name="data_id" id="101C527E-BC5A-AD17-9F43-BC87ABD3177D">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-30 20:18:09 UTC</createdTime>
@@ -105,8 +104,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-=======
->>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0EC67DE5-7EF3-A18B-194D-A4B4F74EB10C" name="COMPRA_FACT PK">
@@ -122,8 +119,4 @@
 </usedAttributes>
 </identifier>
 </identifiers>
-<<<<<<< HEAD
 </Entity>
-=======
-</Entity>
->>>>>>> ef9cd28851ea5014e7a52cffee9d1d09671c0da8

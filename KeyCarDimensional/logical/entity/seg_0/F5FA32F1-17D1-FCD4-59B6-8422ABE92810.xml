@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5FA32F1-17D1-FCD4-59B6-8422ABE92810" name="REGIAO_DIM">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 01:51:34 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_regiao" id="E7AE8ADB-DC09-F38F-68A9-4132AC794366">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 01:51:57 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="DF6313CF-D85B-165B-B746-4E2F55365EC7">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 01:52:13 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD8E2DDA-C606-A896-FA63-30636A888850" name="REGIAO_DIM PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 01:52:11 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7AE8ADB-DC09-F38F-68A9-4132AC794366</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

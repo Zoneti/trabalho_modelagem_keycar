@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEC96F61-5F0F-1280-E516-6EDD93B7FC2B" name="LOCALIZACAO">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:37:29 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_localizacao" id="E8B1A6F6-3DAA-26B0-54CC-71A9E980D67E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:37:39 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="273B57AD-34A1-2902-63CA-85F02F59614B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:38:15 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="C8385545-06E2-DEE7-2FB9-F7F10EC49115">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:38:41 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="82A96CC6-41A7-98EE-544D-E93784F963F8">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:39:13 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="265151E9-C940-7277-479E-C72467FE4BCB">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:39:34 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54F533CF-35D5-9DA2-060D-988152AF2D8A" name="LOCALIZACAO PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:37:55 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8B1A6F6-3DAA-26B0-54CC-71A9E980D67E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

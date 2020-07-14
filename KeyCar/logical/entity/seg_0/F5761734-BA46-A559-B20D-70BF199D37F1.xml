@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5761734-BA46-A559-B20D-70BF199D37F1" name="MUDANCA_AUDIT">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:53:46 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mudanca" id="5C3C3EF6-1553-D906-6395-A63031F961BF">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:54:00 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="CFFE6DC4-9C56-021E-B862-7D5209284F04">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:17:11 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="10E0E997-CBDA-4C9F-A067-9986C8C4F424">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:54:19 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tabela" id="5911E49C-8E63-0030-035F-E589595601DD">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:54:48 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mudanca" id="A1C946ED-9849-6386-E72C-033B0BC4A935">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:55:18 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_registro" id="AE9A53B3-19EF-A5FF-F3CF-41B28AC88545">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:15:08 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="coluna" id="E42B92D2-D904-6A24-CFB0-6CD386585317">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:16:22 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_anterior" id="9173AD02-8855-1AA8-5BC4-49FAC209A4E4">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:55:39 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_posterior" id="247FCB02-A188-36A7-54AE-5F3D7DCBB9AC">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:55:54 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9053B87B-6118-D119-0B6B-BEA23DBFE3BE" name="MUDANCA_AUDIT PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:54:18 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C3C3EF6-1553-D906-6395-A63031F961BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="participou" directorySegmentName="seg_0" id="80918B0B-90A7-E7BA-64D0-729247C17B2D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:43:16 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<sourcePk>A7865B21-890C-0D37-C516-2C38C458340D</sourcePk>
+<targetPk>859D4483-5541-3B95-C41E-38941862C6CF</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B70D7FA0-7BB7-26D4-D654-27736990CAFC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>99476C34-AD82-36BD-CA77-E8B07C5CE53A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

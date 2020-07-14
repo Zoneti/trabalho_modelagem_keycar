@@ -4,7 +4,7 @@
 <createdTime>2020-06-30 20:01:01 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,19 +20,7 @@
 <createdTime>2020-06-30 20:01:27 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cod_compra" id="CD4EA937-4A4C-C046-594F-B96BC65E13CA">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-30 20:02:13 UTC</createdTime>
-<ownerDesignName>KeyCarDimensional</ownerDesignName>
-<engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +32,7 @@
 <createdTime>2020-06-30 20:01:44 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +44,7 @@
 <createdTime>2020-06-30 20:01:47 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,7 +58,7 @@
 <generatorID>AF9A08E6-4032-F08E-B71A-54F64BFA1CD3</generatorID>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <referedAttribute>E4B63AA3-499E-DF51-816C-4A72F40D9E72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,9 +72,23 @@
 <generatorID>CBAD429E-F37F-E824-F588-3617F1DBB6B4</generatorID>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <referedAttribute>E7AE8ADB-DC09-F38F-68A9-4132AC794366</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carro_id" id="A5375C43-F68B-D152-E363-E16DA8560FFA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:21:38 UTC</createdTime>
+<generatorID>9028C169-AB42-D4D2-2D78-01C9773A3881</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<engineerTo>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+</engineerTo>
+<referedAttribute>68AF85FE-E624-A2CA-1C21-28AF864EFDFD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -99,7 +101,7 @@
 <createdTime>2020-06-30 20:03:15 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="33CE112C-69AB-FA13-5C9F-53FD2C9DEE1B" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

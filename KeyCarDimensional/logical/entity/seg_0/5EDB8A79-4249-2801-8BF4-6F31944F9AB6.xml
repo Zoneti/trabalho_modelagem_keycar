@@ -4,7 +4,7 @@
 <createdTime>2020-06-30 19:50:55 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,11 @@
 <createdTime>2020-06-30 19:51:22 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nome" id="039CF2F7-D953-A4FF-829F-7C5F71E746A5">
@@ -30,7 +32,7 @@
 <createdTime>2020-06-30 19:51:31 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,7 +45,7 @@
 <createdTime>2020-06-30 19:51:56 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,7 +57,7 @@
 <createdTime>2020-06-30 19:52:56 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +72,7 @@
 <createdTime>2020-06-30 19:51:55 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="C6C5FF86-19B4-67E6-5364-4F4227ECA862" value="true"/>
+<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

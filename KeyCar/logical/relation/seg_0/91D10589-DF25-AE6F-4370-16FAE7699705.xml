@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="está localizado" directorySegmentName="seg_0" id="91D10589-DF25-AE6F-4370-16FAE7699705">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:42:16 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<sourcePk>562D7BD3-8697-14D5-8253-F8090C6C6E67</sourcePk>
+<targetPk>54F533CF-35D5-9DA2-060D-988152AF2D8A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>016F67EB-4A43-B7C2-C6A0-72BFEB836651</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AEC96F61-5F0F-1280-E516-6EDD93B7FC2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99476C34-AD82-36BD-CA77-E8B07C5CE53A" name="ENTREVISTADO">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:40:10 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_entrevistado" id="BAADC90E-E168-2414-41FA-0D64C10CAE20">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:41:10 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="61AC6C99-0556-6D71-4151-274426F151D3">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:41:22 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="E4CB4E47-76ED-56FF-6D7D-E772A191D6D0">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:41:38 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="859D4483-5541-3B95-C41E-38941862C6CF" name="ENTREVISTADO PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:41:21 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAADC90E-E168-2414-41FA-0D64C10CAE20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

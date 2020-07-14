@@ -4,7 +4,7 @@
 <createdTime>2020-06-29 23:00:27 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,31 +20,7 @@
 <createdTime>2020-06-29 23:00:42 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="17676210-E717-DB09-B831-F5AD078F991F">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 23:00:56 UTC</createdTime>
-<ownerDesignName>KeyCarPesquisa</ownerDesignName>
-<engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idVenda" id="AEF940A7-59AE-6A84-9E4C-CFDF531D907C">
-<createdBy>gzperes</createdBy>
-<createdTime>2020-06-29 23:01:08 UTC</createdTime>
-<ownerDesignName>KeyCarPesquisa</ownerDesignName>
-<engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +32,7 @@
 <createdTime>2020-06-29 23:01:21 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,13 +45,54 @@
 <createdTime>2020-06-29 23:01:58 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_venda" id="E0541EC2-C28D-F826-3604-13577160B570">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:48:06 UTC</createdTime>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_entrevistado" id="CC964047-E173-80B4-AA91-1CA86195B373">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:44:04 UTC</createdTime>
+<generatorID>80918B0B-90A7-E7BA-64D0-729247C17B2D</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<referedAttribute>BAADC90E-E168-2414-41FA-0D64C10CAE20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carro" id="C43B73CA-3B7B-BBDF-75A1-291F3CEFB39B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:47:08 UTC</createdTime>
+<generatorID>5C8F1E22-9F16-B5F7-376D-3D6A144A4B2C</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<engineerTo>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+</engineerTo>
+<referedAttribute>01CAF8DE-580A-1583-E21A-408D549212D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -84,7 +101,7 @@
 <createdTime>2020-06-29 23:00:55 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="7223E160-6B01-048D-1EFD-77D76A060D02" value="true"/>
+<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

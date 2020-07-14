@@ -4,7 +4,7 @@
 <createdTime>2020-06-19 20:56:11 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,24 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdFornecedor" id="B9B53D06-1392-4C5F-FEA7-96D850FF413F">
+<Attribute name="id_fornecedor" id="B9B53D06-1392-4C5F-FEA7-96D850FF413F">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 20:58:40 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="8E35C63A-8B53-11C9-ABB0-99050D8AF1DB">
+<Attribute name="nome_fantasia" id="8E35C63A-8B53-11C9-ABB0-99050D8AF1DB">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 21:41:49 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-06-19 21:42:05 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,12 +53,12 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="localizacao" id="4F262ED7-B3EA-3DD4-5519-37A535AD29A6">
+<Attribute name="razao_social" id="4F262ED7-B3EA-3DD4-5519-37A535AD29A6">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 21:42:35 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,11 +71,25 @@
 <createdTime>2020-06-19 21:43:00 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_localizacao" id="BFFA152B-6BAC-3DA3-F494-4F77646DCCFF">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:42:38 UTC</createdTime>
+<generatorID>91D10589-DF25-AE6F-4370-16FAE7699705</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<referedAttribute>E8B1A6F6-3DAA-26B0-54CC-71A9E980D67E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -85,7 +99,7 @@
 <createdTime>2020-06-19 20:58:54 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
-<item key="AA67D8B5-F353-DAE1-4CAB-B2D4DB6F6027" value="true"/>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -3,6 +3,9 @@
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:53:44 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:54:01 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +31,9 @@
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:54:51 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -37,6 +45,9 @@
 <createdTime>2020-06-24 22:58:56 UTC</createdTime>
 <generatorID>CCE7190D-4FFF-6A48-9773-98E9B8EBB79C</generatorID>
 <ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <referedAttribute>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,6 +58,9 @@
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:59:43 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,11 +71,27 @@
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:00:05 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo" id="369876F9-7276-F503-8D44-C07DBA60B74F">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 21:45:57 UTC</createdTime>
+<ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -69,6 +99,9 @@
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:54:46 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
+<engineerTo>
+<item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>76364C4A-9517-FB60-363F-C8688219D414</attributeRef>

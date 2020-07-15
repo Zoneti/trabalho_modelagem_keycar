@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="B7E8B432-725C-6F90-E9DF-C93E78BFE5E1">
+<Attribute name="id_marca" id="B7E8B432-725C-6F90-E9DF-C93E78BFE5E1">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 23:50:56 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>

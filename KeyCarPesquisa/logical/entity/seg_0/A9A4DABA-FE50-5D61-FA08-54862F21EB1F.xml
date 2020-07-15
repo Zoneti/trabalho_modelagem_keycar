@@ -4,7 +4,7 @@
 <createdTime>2020-06-29 22:55:36 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idResposta" id="66FA7C49-FBF2-50E6-0719-6025D5A87A81">
+<Attribute name="id_resposta" id="66FA7C49-FBF2-50E6-0719-6025D5A87A81">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-29 22:59:43 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-06-29 22:55:54 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-06-29 22:56:29 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <createdTime>2020-06-29 22:59:55 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="058EED96-AEAA-EE7A-63E8-1210DCFE9BD3" name="tem">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:19:25 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARRO_DIM_carro_id" id="AF747529-33F8-824E-41DC-A19CDB3C1F01">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:19:25 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="297D7FC7-BB48-F72C-E4CD-DE0B67A2D458" referredColumn="BC6802A8-F74F-6F72-C9E1-CCFE511B2F17"/>
+</associations>
+</Column>
+<Column name="VENDA_FACT_venda_id" id="EB24E7A0-982A-1439-97E7-D00329F3BDF5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:19:25 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF3E8610-DE66-2183-C9AE-BD30920B0C68" referredColumn="B2CE090E-8640-0F90-923F-72332F1B9777"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCA3D583-B7C7-ACFF-D393-F72060527EEE" name="tem_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:19:25 UTC</createdTime>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF747529-33F8-824E-41DC-A19CDB3C1F01"/>
+<colUsage columnID="EB24E7A0-982A-1439-97E7-D00329F3BDF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71E248C-733B-3D03-1915-E702BABD3D32" name="tem_CARRO_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:19:25 UTC</createdTime>
+<generatorID>9028C169-AB42-D4D2-2D78-01C9773A3881</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF747529-33F8-824E-41DC-A19CDB3C1F01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="094C6C87-A545-DBCC-8A95-38855A7C9CC7" name="tem_VENDA_FACT_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-30 20:19:25 UTC</createdTime>
+<generatorID>9028C169-AB42-D4D2-2D78-01C9773A3881</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB24E7A0-982A-1439-97E7-D00329F3BDF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

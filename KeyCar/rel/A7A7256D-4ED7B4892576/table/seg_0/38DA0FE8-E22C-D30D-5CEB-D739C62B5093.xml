@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38DA0FE8-E22C-D30D-5CEB-D739C62B5093" name="MUDANCA_AUDIT">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>F5761734-BA46-A559-B20D-70BF199D37F1</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mudanca" id="A071069F-4C44-6597-4AD8-88C71DDB1DE0">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>5C3C3EF6-1553-D906-6395-A63031F961BF</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="5CAFC414-9647-DFED-DDBE-4D6D02F7CB95">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>CFFE6DC4-9C56-021E-B862-7D5209284F04</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="0228DBC4-EF49-FB5C-A26E-B5D68DB47E70">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>10E0E997-CBDA-4C9F-A067-9986C8C4F424</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tabela" id="AEB5060E-74AB-DDE3-65AC-AA373CC70566">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>5911E49C-8E63-0030-035F-E589595601DD</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mudanca" id="9CC77C1C-77ED-A286-2D1A-3292BEA8DC49">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>A1C946ED-9849-6386-E72C-033B0BC4A935</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_registro" id="DB4661F7-5210-3195-33F0-C9DE01BA7264">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>AE9A53B3-19EF-A5FF-F3CF-41B28AC88545</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coluna" id="FE50A211-4F55-CFF1-6E79-F119B07F9FA5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>E42B92D2-D904-6A24-CFB0-6CD386585317</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_anterior" id="2C2E8F94-2B93-1BFE-E777-262DDDBB9666">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>9173AD02-8855-1AA8-5BC4-49FAC209A4E4</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_posterior" id="B08C8CBA-5187-C0E1-52A0-563C429A071D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>247FCB02-A188-36A7-54AE-5F3D7DCBB9AC</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="473BCFA2-8549-DA0F-7AC5-4534A9B4BE66" name="MUDANCA_AUDIT_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:33:12 UTC</createdTime>
+<generatorID>9053B87B-6118-D119-0B6B-BEA23DBFE3BE</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A071069F-4C44-6597-4AD8-88C71DDB1DE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

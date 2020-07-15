@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D427E3B-458B-5BF7-029B-EEB6CDC040D3" name="DATA_DIM">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>B58C770C-7893-0614-EC69-3AC0E6801C30</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_data" id="D56FE9C3-0392-201A-1FED-FB20DB90F862">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>E4B63AA3-499E-DF51-816C-4A72F40D9E72</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="3BFA3670-C057-DD01-B189-6212F588954E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>8A507B35-FEA0-4F03-12B9-A9FC0AF7FC2E</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_char" id="FF1CE4B9-D385-311F-2217-64AA8AC58A13">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>E6DCE440-69A3-13A5-85F7-3894E207D940</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia" id="EEDCDB0B-013C-227A-919B-33E6B0AE0036">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>25726336-5F85-3922-941B-222051771779</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mes" id="77E30C0F-4E6A-A54F-7FEF-6A76C74F98B5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>B2974E5F-66F1-FCF3-9C99-9D1E61563E9E</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="377AEB74-057D-A3ED-1381-596AF971659D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>5998656E-C659-68F2-EF42-76D43F2F3EF6</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora24" id="6469ABB6-37DD-FA28-B800-1716B92B5454">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>742BF51D-DD61-34B1-C741-4B6404AE7FB0</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minuto" id="91E226A2-B762-A358-84F4-FD50C779A6EC">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>0B23E615-FACA-8A0C-C1D6-B141EBB27D63</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia_semana" id="04B80A19-5ADF-E3AA-DCD3-C1785A9F9D94">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>98C70A32-B68F-DE99-FB83-D4C02A93F9EC</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trimestre" id="30B91F0D-A3B7-4A8C-0B30-6C0679E8768D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>B3BC08E9-91EA-F484-197B-5ED91BD2BC31</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B05C6DC4-9D72-86DD-5E31-73D065A71BC3" name="DATA_DIM_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>95867178-57B5-5778-68CD-4DF4CD6695EB</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D56FE9C3-0392-201A-1FED-FB20DB90F862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

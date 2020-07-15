@@ -4,7 +4,7 @@
 <createdTime>2020-07-07 22:40:10 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="81F76163-8C12-3CEE-4E59-739A81415941" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-07-07 22:41:10 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="81F76163-8C12-3CEE-4E59-739A81415941" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-07-07 22:41:22 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="81F76163-8C12-3CEE-4E59-739A81415941" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +40,12 @@
 <dataTypeSize>250 CHAR</dataTypeSize>
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cliente_id" id="E4CB4E47-76ED-56FF-6D7D-E772A191D6D0">
+<Attribute name="id_cliente" id="E4CB4E47-76ED-56FF-6D7D-E772A191D6D0">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-07-07 22:41:38 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="81F76163-8C12-3CEE-4E59-739A81415941" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <createdTime>2020-07-07 22:41:21 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="81F76163-8C12-3CEE-4E59-739A81415941" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

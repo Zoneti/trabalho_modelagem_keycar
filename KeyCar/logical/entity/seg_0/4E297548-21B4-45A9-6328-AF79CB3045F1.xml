@@ -15,14 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdVenda" id="5C977B43-FDC0-E6A1-C5F0-A01954AA3314">
+<Attribute name="id_venda" id="5C977B43-FDC0-E6A1-C5F0-A01954AA3314">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:16:17 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
 <engineerTo>
 <item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numeroNotaFiscal" id="91A4FC79-A8D9-12C0-B996-A5765935A4D9">
@@ -66,7 +68,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdCliente1" id="986C2845-9293-A93C-8972-D1E296FEF3BC">
+<Attribute name="id_cliente" id="986C2845-9293-A93C-8972-D1E296FEF3BC">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:13:04 UTC</createdTime>
 <generatorID>C834B5A6-16A6-F877-DF03-6BA69ECCF6C3</generatorID>
@@ -77,7 +79,7 @@
 <referedAttribute>C388DE89-6013-0E78-77E5-6B780774D21A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_concessionaria" id="95F47622-CE98-4722-7CF1-05C996E49E9A">

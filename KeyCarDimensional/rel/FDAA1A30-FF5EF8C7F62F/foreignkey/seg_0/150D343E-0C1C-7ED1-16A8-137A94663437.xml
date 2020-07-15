@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="150D343E-0C1C-7ED1-16A8-137A94663437" containerWithKeyObject="51F2D114-AFB7-9002-365E-AA307C55FA96" localFKIndex="FEBFD7AC-38E6-638C-B75D-2BD9015C6143" name="COMPRA_FACT_FORNECEDOR_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>E8231FCE-1ED2-4407-73CD-E1CD999D0C73</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<referredTableLongName>FORNECEDOR_DIM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16E1C38B-1363-E1C4-9B9C-60DE7E602446</referredTableID>
+<keyObject>BDC9E03E-FA3E-74BC-8C00-777F63A575E1</keyObject>
+<referredKeyID>BDC9E03E-FA3E-74BC-8C00-777F63A575E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fornecedor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

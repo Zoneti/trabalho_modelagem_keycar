@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDF096DC-9D01-6B9F-A524-A733894C95FC" name="PRODUTOS">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>C068C110-40C5-2967-4330-2C0C01F7E8EA</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="78939B4A-DAAC-A34B-5507-8CDE5944E18B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="A01FC202-A72D-E33F-86AB-9967CF60DD4B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>21AE0ED1-F0CB-88D6-F074-3E30535897B0</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="0FD61E74-8F43-907D-462E-1D67DE30D19F">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>A493F017-292D-C2C6-5DAF-B25BFB8CC774</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000 CHAR</dataTypeSize>
+<ownDataTypeParameters>5000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="69F7B34F-3296-91DE-1750-B7AF9172050A">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>80CE042D-BD15-9A2E-1012-98569BED66E6</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="7279F891-6B37-D4D8-3387-2A7880336270">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>34C7D915-62E8-B89E-F0D3-D73EEAC6E895</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_id" id="3413BD65-10BD-5F76-349E-5B70D3E2E0D7">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>61685FBF-9B48-0AB7-DD7A-315A190A812B</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EA96C13-3DDF-2DD5-2556-C8003E9EC62C" referredColumn="BCB617EE-69CE-B01E-BF25-7C9F555B3EAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C214A325-9F73-15A1-994A-1DC05E27DFF8" name="PRODUTOS_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>52E3C60C-3014-B4B1-F71A-D7A21D403D10</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78939B4A-DAAC-A34B-5507-8CDE5944E18B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7EFD745-A9DF-8FE6-1595-6B519FF0304B" name="PRODUTOS_TIPO_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-06-19 21:59:55 UTC</createdTime>
+<generatorID>423BFE1D-75F8-E4CB-0A1A-D62764CDE681</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3413BD65-10BD-5F76-349E-5B70D3E2E0D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

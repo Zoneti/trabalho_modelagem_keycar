@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51F2D114-AFB7-9002-365E-AA307C55FA96" name="COMPRA_FACT">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>43349635-7E78-B875-65FD-D165BA41711C</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="compra_id" id="950F8186-F06B-63E1-56F2-27F115FE5541">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>4E380F96-65EA-68B9-54C5-67B61857FC27</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="4AD0E51F-7028-4FCE-AF9E-668642D58187">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>2DFC4B8B-2D01-21DC-7BB0-75C495E55002</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtde_dias_entrega" id="F6BD9BA0-AF52-8C23-3A0C-4262513D0BAD">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>5388FE34-87F9-F01B-0F4E-80E5F085E37B</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="1B296A4D-52D5-F0D4-3647-E0A145415BEE">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>3D598C25-BA8E-D39C-182A-7325A923DCCC</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DIM_data_id" id="498E8FA9-610C-F18C-9C69-253F1E53E50F">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>101C527E-BC5A-AD17-9F43-BC87ABD3177D</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="476BDE98-8B81-9EE6-8128-040385601FB0" referredColumn="33AF7483-20AB-4BB2-C01E-3FBFD03E0386"/>
+</associations>
+</Column>
+<Column name="FORNECEDOR_DIM_fornecedor_id" id="E00509B3-078A-4DA2-2FF3-6C3710C10334">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>975A610B-7728-F338-57EF-5005EAF417F0</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150D343E-0C1C-7ED1-16A8-137A94663437" referredColumn="84C7E821-924F-6FC9-6557-A240387988E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF0F8797-A25A-7267-82CB-0F597FBCC182" name="COMPRA_FACT_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>0EC67DE5-7EF3-A18B-194D-A4B4F74EB10C</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="950F8186-F06B-63E1-56F2-27F115FE5541"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47C9A8C6-9DFE-7C52-695A-241F29097298" name="COMPRA_FACT_DATA_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>CAC35ED8-C459-D304-0DB3-159CC8E5F8CD</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="498E8FA9-610C-F18C-9C69-253F1E53E50F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEBFD7AC-38E6-638C-B75D-2BD9015C6143" name="COMPRA_FACT_FORNECEDOR_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>E8231FCE-1ED2-4407-73CD-E1CD999D0C73</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00509B3-078A-4DA2-2FF3-6C3710C10334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

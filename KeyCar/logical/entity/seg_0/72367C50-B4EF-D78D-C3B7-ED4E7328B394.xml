@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdPreco" id="76364C4A-9517-FB60-363F-C8688219D414">
+<Attribute name="id_preco" id="76364C4A-9517-FB60-363F-C8688219D414">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:54:01 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -24,7 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ValorUnitario" id="0B8D4B5C-D2CA-58D5-C8AD-C57EAADEF3E6">
@@ -40,7 +40,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idProduto1" id="DED60A55-99B3-2541-EBF0-93D339B46695">
+<Attribute name="id_produto" id="DED60A55-99B3-2541-EBF0-93D339B46695">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 22:58:56 UTC</createdTime>
 <generatorID>CCE7190D-4FFF-6A48-9773-98E9B8EBB79C</generatorID>
@@ -51,7 +51,7 @@
 <referedAttribute>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DataInicioVigencia" id="FE94BA95-D4A1-5C4B-D2DA-3ADF44FA0A94">

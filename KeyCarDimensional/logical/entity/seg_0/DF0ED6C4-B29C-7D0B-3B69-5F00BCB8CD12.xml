@@ -4,7 +4,7 @@
 <createdTime>2020-06-30 19:54:25 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="fornecedor_id" id="603DB4F7-0D56-E255-A2AE-09D7ACDA82AE">
+<Attribute name="id_fornecedor" id="603DB4F7-0D56-E255-A2AE-09D7ACDA82AE">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-30 19:54:50 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-06-30 19:55:13 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2020-06-30 19:55:28 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2020-06-30 19:56:47 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +73,7 @@
 <createdTime>2020-06-30 19:55:11 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

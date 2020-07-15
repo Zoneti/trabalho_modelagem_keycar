@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdItem" id="49ED761F-6923-3298-4840-86A560D72434">
+<Attribute name="id_item" id="49ED761F-6923-3298-4840-86A560D72434">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:07:01 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -24,7 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="valorUnitario" id="F0C37D48-E12C-BE79-9804-4AE370898931">
@@ -51,7 +51,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dataVenda" id="0F0EE854-21B3-C9CB-909F-9668F89287B4">
@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdVenda1" id="A779F120-F52B-3D3F-321D-D3B364DB5445">
+<Attribute name="id_venda" id="A779F120-F52B-3D3F-321D-D3B364DB5445">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:16:21 UTC</createdTime>
 <generatorID>0D577BAD-293B-EC82-9B9A-A64812AA2D95</generatorID>
@@ -76,10 +76,11 @@
 <item key="29CADF5D-3BE7-0234-F821-2D6D1F2E529A" value="true"/>
 </engineerTo>
 <referedAttribute>5C977B43-FDC0-E6A1-C5F0-A01954AA3314</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idProduto" id="B652FEE2-79CA-5276-7F60-70C2F4CCA9FE">
+<Attribute name="id_produto" id="B652FEE2-79CA-5276-7F60-70C2F4CCA9FE">
 <createdBy>mpenna</createdBy>
 <createdTime>2020-06-24 23:34:15 UTC</createdTime>
 <generatorID>BEA7C490-3462-9DA0-343B-7CAF1E0612F7</generatorID>
@@ -90,7 +91,7 @@
 <referedAttribute>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="desconto" id="F35972B4-4C52-80FE-DFA4-9D73C4BAFF21">

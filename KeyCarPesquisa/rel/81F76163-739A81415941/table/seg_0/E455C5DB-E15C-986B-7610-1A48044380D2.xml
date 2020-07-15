@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E455C5DB-E15C-986B-7610-1A48044380D2" name="PESQUISA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>B70D7FA0-7BB7-26D4-D654-27736990CAFC</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pesquisa" id="D7E5156D-78B8-03F0-CABF-EB1F2547F6EE">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>2AA88065-B94C-D6A8-6510-F1671BF3117C</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="submetida" id="20593830-15FF-F109-8872-CACF61A90656">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>3F364607-AD03-4F0C-A416-C1398517B288</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presencial" id="275AE958-C5DD-339F-5517-61269F304967">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>46F326DE-46DF-A2FC-551A-854345662B61</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_venda" id="B4959762-FB88-3FAC-F3CD-CAD10C703FA3">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>E0541EC2-C28D-F826-3604-13577160B570</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTREVISTADO_id_entrevistado" id="F974CAD4-D22D-D69E-B6F1-E76382A8F45D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>CC964047-E173-80B4-AA91-1CA86195B373</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4B25720-071F-B2A2-3AF4-D3C708FBE006" referredColumn="F40CA198-5D9E-12D4-A40F-F4A97B59FD42"/>
+</associations>
+</Column>
+<Column name="CARRO_id_carro" id="80F92552-F2D5-8BF3-ED3D-84C17D8D4BD0">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>C43B73CA-3B7B-BBDF-75A1-291F3CEFB39B</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5AF4A51-B0EB-9E68-AFC8-16D78419B09F" referredColumn="25BBA098-BD67-1177-698E-74FC7F14E1C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E01CC40-D803-3EB0-F41A-1349657175C1" name="PESQUISA_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>A7865B21-890C-0D37-C516-2C38C458340D</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7E5156D-78B8-03F0-CABF-EB1F2547F6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45C8C1C1-0EE1-4D20-9F59-BC1A4609FA00" name="PESQUISA_ENTREVISTADO_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>80918B0B-90A7-E7BA-64D0-729247C17B2D</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F974CAD4-D22D-D69E-B6F1-E76382A8F45D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC94092C-BE8C-1C90-C2AA-D1169BFD3B16" name="PESQUISA_CARRO_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:38:21 UTC</createdTime>
+<generatorID>5C8F1E22-9F16-B5F7-376D-3D6A144A4B2C</generatorID>
+<ownerDesignName>KeyCarPesquisa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80F92552-F2D5-8BF3-ED3D-84C17D8D4BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

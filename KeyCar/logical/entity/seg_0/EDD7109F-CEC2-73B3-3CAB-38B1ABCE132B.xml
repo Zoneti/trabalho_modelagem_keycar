@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdCliente" id="C388DE89-6013-0E78-77E5-6B780774D21A">
+<Attribute name="id_cliente" id="C388DE89-6013-0E78-77E5-6B780774D21A">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 20:59:02 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -24,7 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nome" id="A8FAF0F3-BC89-6256-AF08-419C2AB51FB8">
@@ -66,7 +66,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo" id="15B312D5-1A13-A013-844C-B1184D625F3C">
+<Attribute name="id_tipo_cliente" id="15B312D5-1A13-A013-844C-B1184D625F3C">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 21:41:07 UTC</createdTime>
 <generatorID>A8152986-44A8-8504-EC12-90DEA3732FAB</generatorID>

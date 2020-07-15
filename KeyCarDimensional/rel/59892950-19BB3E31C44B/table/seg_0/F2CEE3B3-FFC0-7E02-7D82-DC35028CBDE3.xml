@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2CEE3B3-FFC0-7E02-7D82-DC35028CBDE3" name="FORNECEDOR_DIM">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>DF0ED6C4-B29C-7D0B-3B69-5F00BCB8CD12</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fornecedor" id="0A08A565-9D2F-7C31-DF2F-067082E6A71E">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>603DB4F7-0D56-E255-A2AE-09D7ACDA82AE</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="A3A8A92D-E246-DBC4-2412-777174566CF6">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>4542D871-8177-CAF4-F2C6-632F778D5B61</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="4C39D8E2-CDE0-4C9C-4770-832C201EBCA3">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>CAC5C4D0-6B12-E949-0165-92460CF21DD5</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="documento" id="79D37126-23AE-3AD2-D653-11C845FC4E77">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>78C3DAB0-8F6C-201A-054F-62D0D289C913</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91E604B4-EDC4-FD18-6E3B-811A2D05CBF3" name="FORNECEDOR_DIM_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-15 18:36:39 UTC</createdTime>
+<generatorID>67E7710A-FB7F-542C-777E-A93F882F8D10</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A08A565-9D2F-7C31-DF2F-067082E6A71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

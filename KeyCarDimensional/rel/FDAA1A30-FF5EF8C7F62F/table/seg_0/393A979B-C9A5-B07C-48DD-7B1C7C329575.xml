@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="393A979B-C9A5-B07C-48DD-7B1C7C329575" name="VENDA_FACT">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>8A1BA85C-B269-817D-CE43-847371889852</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="venda_id" id="FF306995-0A9E-01FF-89A2-C97AAC71530D">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>D64DC60B-6383-A34A-F7AA-407D5BE7A53A</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="300923E3-ADC5-80C2-DEC2-5D01CE1C6127">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>778456B7-726D-A788-5236-BB458FA76371</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="442FA62B-7C9F-9C60-8549-9169C503FE13">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>93DD3F23-2B60-57BC-585F-1118556B1DE2</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DIM_data_id" id="A02064D3-02A0-170E-82EE-ABD83587A07B">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>C5F4305F-EC2F-2A92-FB16-233521562411</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC95CF59-5DFF-521B-CAB4-05C2C2398338" referredColumn="33AF7483-20AB-4BB2-C01E-3FBFD03E0386"/>
+</associations>
+</Column>
+<Column name="REGIAO_DIM_id_regiao" id="5BD65AAE-65D6-C604-DE5A-B7605522C38A">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>A1952530-BFFF-5E87-44BE-CC6945CBBE8D</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EFE7274-BF04-D100-231C-92E1C66E135A" referredColumn="4322B391-BB42-5719-A857-78D817F4F245"/>
+</associations>
+</Column>
+<Column name="CARRO_DIM_carro_id" id="1ED6A5CB-FED4-9A7E-8FB4-9F299F14BBB9">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>A5375C43-F68B-D152-E363-E16DA8560FFA</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F645F31-BC9D-7F43-C623-B58955C8316B" referredColumn="CDED0FD4-3EEC-0143-34A9-6914C5188F73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F78AEE52-7769-AB27-C17A-40EEDB0FB171" name="VENDA_FACT_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>87D424D5-F5EB-9783-01E4-55E189E47A17</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF306995-0A9E-01FF-89A2-C97AAC71530D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C3BA3BD-E0D3-C102-13C9-0D181F7F7296" name="VENDA_FACT_DATA_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>AF9A08E6-4032-F08E-B71A-54F64BFA1CD3</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A02064D3-02A0-170E-82EE-ABD83587A07B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05AAF432-859E-E5B0-3D6E-D3CE7BDBC157" name="VENDA_FACT_REGIAO_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>CBAD429E-F37F-E824-F588-3617F1DBB6B4</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BD65AAE-65D6-C604-DE5A-B7605522C38A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C86AFA9-6509-2515-57BA-F2A0760898DA" name="VENDA_FACT_CARRO_DIM_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-07 22:24:14 UTC</createdTime>
+<generatorID>9028C169-AB42-D4D2-2D78-01C9773A3881</generatorID>
+<ownerDesignName>KeyCarDimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED6A5CB-FED4-9A7E-8FB4-9F299F14BBB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

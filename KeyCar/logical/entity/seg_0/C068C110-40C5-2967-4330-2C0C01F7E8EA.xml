@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idProduto" id="C4C24BC3-F74B-8516-158C-BB929E6C1CB7">
+<Attribute name="id_produto" id="C4C24BC3-F74B-8516-158C-BB929E6C1CB7">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 20:59:19 UTC</createdTime>
 <ownerDesignName>KeyCar</ownerDesignName>
@@ -24,7 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nome" id="21AE0ED1-F0CB-88D6-F074-3E30535897B0">
@@ -62,10 +62,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="61685FBF-9B48-0AB7-DD7A-315A190A812B">
+<Attribute name="id_tipo" id="61685FBF-9B48-0AB7-DD7A-315A190A812B">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 21:07:36 UTC</createdTime>
 <generatorID>423BFE1D-75F8-E4CB-0A1A-D62764CDE681</generatorID>
@@ -79,7 +79,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="F59F53B0-FA31-19D0-3F48-8E5BE568E32F">
+<Attribute name="id_marca" id="F59F53B0-FA31-19D0-3F48-8E5BE568E32F">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-19 23:52:34 UTC</createdTime>
 <generatorID>BF56E63E-A837-2B26-CDFB-EA7BF0475B4D</generatorID>

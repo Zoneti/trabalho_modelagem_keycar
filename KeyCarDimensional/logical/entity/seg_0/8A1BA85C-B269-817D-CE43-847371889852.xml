@@ -4,7 +4,7 @@
 <createdTime>2020-06-30 20:01:01 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="venda_id" id="D64DC60B-6383-A34A-F7AA-407D5BE7A53A">
+<Attribute name="id_venda" id="D64DC60B-6383-A34A-F7AA-407D5BE7A53A">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-30 20:01:27 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-06-30 20:01:44 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2020-06-30 20:01:47 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,13 +52,13 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_id" id="C5F4305F-EC2F-2A92-FB16-233521562411">
+<Attribute name="id_data" id="C5F4305F-EC2F-2A92-FB16-233521562411">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-30 20:18:41 UTC</createdTime>
 <generatorID>AF9A08E6-4032-F08E-B71A-54F64BFA1CD3</generatorID>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <referedAttribute>E4B63AA3-499E-DF51-816C-4A72F40D9E72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,7 +72,7 @@
 <generatorID>CBAD429E-F37F-E824-F588-3617F1DBB6B4</generatorID>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <referedAttribute>E7AE8ADB-DC09-F38F-68A9-4132AC794366</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,13 +80,13 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="carro_id" id="A5375C43-F68B-D152-E363-E16DA8560FFA">
+<Attribute name="id_carro" id="A5375C43-F68B-D152-E363-E16DA8560FFA">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-07-07 21:21:38 UTC</createdTime>
 <generatorID>9028C169-AB42-D4D2-2D78-01C9773A3881</generatorID>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <referedAttribute>68AF85FE-E624-A2CA-1C21-28AF864EFDFD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -101,7 +101,7 @@
 <createdTime>2020-06-30 20:03:15 UTC</createdTime>
 <ownerDesignName>KeyCarDimensional</ownerDesignName>
 <engineerTo>
-<item key="E13930CA-1BE1-0A9E-686B-5926FBD6FB04" value="true"/>
+<item key="0F11A656-1F64-E74A-B9E8-2E42BB133E6E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

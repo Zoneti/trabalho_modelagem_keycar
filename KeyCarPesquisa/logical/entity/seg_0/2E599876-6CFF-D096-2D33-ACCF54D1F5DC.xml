@@ -4,7 +4,7 @@
 <createdTime>2020-06-29 22:54:41 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idPergunta" id="6F98F813-6EA7-4ABB-B7B4-3F37B359579E">
+<Attribute name="id_pergunta" id="6F98F813-6EA7-4ABB-B7B4-3F37B359579E">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-29 22:54:50 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-06-29 22:55:04 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,13 +40,13 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idResposta" id="1EFE3630-6CA0-820A-1F92-A39C5049F4F5">
+<Attribute name="id_resposta" id="1EFE3630-6CA0-820A-1F92-A39C5049F4F5">
 <createdBy>gzperes</createdBy>
 <createdTime>2020-06-29 22:59:57 UTC</createdTime>
 <generatorID>CE0FB62A-1AE9-575B-BA84-C750DC69F822</generatorID>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <referedAttribute>66FA7C49-FBF2-50E6-0719-6025D5A87A81</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +59,7 @@
 <createdTime>2020-06-29 23:00:08 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,7 +74,7 @@
 <createdTime>2020-06-29 22:55:02 UTC</createdTime>
 <ownerDesignName>KeyCarPesquisa</ownerDesignName>
 <engineerTo>
-<item key="913D0EC1-ADAA-E122-9B70-C503C17B327C" value="true"/>
+<item key="E0BE6674-2137-812F-C000-F7F15E43C0E9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

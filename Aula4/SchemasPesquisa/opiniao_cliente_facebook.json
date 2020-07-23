@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "opiniao_cliente_facebook",
+    "additionalProperties": false,
+    "properties": {
+        "id_opiniao": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{24}$"
+        },
+        "autor": {
+            "type": "string"
+        },
+        "titulo": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "opiniao": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "array",
+            "additionalItems": true,
+            "minItems": 0,
+            "uniqueItems": false,
+            "items": {
+                "id": "tag",
+                "type": "string"
+            }
+        },
+        "imagem": {
+            "type": "object",
+            "properties": {
+                "id_imagem": {
+                    "type": "string",
+                    "pattern": "^[a-fA-F0-9]{24}$"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "numero_compartilhamento": {
+            "type": "number"
+        },
+        "reacoes": {
+            "type": "object",
+            "properties": {
+                "curtir": {
+                    "type": "number"
+                },
+                "amei": {
+                    "type": "number"
+                },
+                "forca": {
+                    "type": "number"
+                },
+                "haha": {
+                    "type": "number"
+                },
+                "uau": {
+                    "type": "number"
+                },
+                "triste": {
+                    "type": "number"
+                },
+                "grr": {
+                    "type": "number"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

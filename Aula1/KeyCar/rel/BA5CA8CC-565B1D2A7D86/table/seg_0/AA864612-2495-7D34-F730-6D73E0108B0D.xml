@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA864612-2495-7D34-F730-6D73E0108B0D" name="FORNECEDORES">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>016F67EB-4A43-B7C2-C6A0-72BFEB836651</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fornecedor" id="95C70612-1FFE-0209-1C72-2DACF066F476">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>B9B53D06-1392-4C5F-FEA7-96D850FF413F</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_fantasia" id="718C3B68-BA5F-252C-A891-C65A93E2FB6F">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>8E35C63A-8B53-11C9-ABB0-99050D8AF1DB</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="F8F3C81F-5276-468F-0D49-D3662C32A6B0">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>32C3D893-C784-5C76-E4D3-811CA3E6EB4F</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="941F16DA-23B3-51D7-0F01-305BEED73E4F">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>4F262ED7-B3EA-3DD4-5519-37A535AD29A6</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_insercao" id="DE3B9DFA-D9A3-A17F-814A-269668B07AFA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>7F9FFA33-BA71-5660-0F97-662BBA0B7754</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIZACAO_id_localizacao" id="54B72196-163E-D455-2F06-E6D81354F029">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>BFFA152B-6BAC-3DA3-F494-4F77646DCCFF</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE13DF6D-7A1B-5940-5CE8-07806729FA27" referredColumn="70273A4F-5AC7-8A6C-36E3-EE00EC6DDEA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91E413CB-B114-D58D-80F2-D04450D310F7" name="FORNECEDORES_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>562D7BD3-8697-14D5-8253-F8090C6C6E67</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C70612-1FFE-0209-1C72-2DACF066F476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78F420C2-ABC5-9F6B-67F9-C16464A83E62" name="FORNECEDORES_LOCALIZACAO_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>91D10589-DF25-AE6F-4370-16FAE7699705</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54B72196-163E-D455-2F06-E6D81354F029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

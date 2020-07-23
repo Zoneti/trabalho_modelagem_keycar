@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "cliente",
+    "additionalProperties": false,
+    "properties": {
+        "id_cliente": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{24}$"
+        },
+        "nome": {
+            "type": "string"
+        },
+        "endereco_comercial": {
+            "type": "string"
+        },
+        "endereco_residencial": {
+            "type": "string"
+        },
+        "telefone_fixo": {
+            "type": "string"
+        },
+        "celulares": {
+            "type": "array",
+            "additionalItems": true,
+            "minItems": 0,
+            "maxItems": 100,
+            "uniqueItems": false,
+            "items": {
+                "type": "string"
+            }
+        },
+        "emails": {
+            "type": "array",
+            "additionalItems": true,
+            "minItems": 0,
+            "maxItems": 100,
+            "uniqueItems": false,
+            "items": {
+                "type": "string"
+            }
+        },
+        "documentos": {
+            "type": "object",
+            "properties": {
+                "cpf": {
+                    "type": "string"
+                },
+                "rg": {
+                    "type": "string"
+                },
+                "cnh": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

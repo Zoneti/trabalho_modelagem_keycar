@@ -1,0 +1,489 @@
+{
+    "GUID": "9b67fd00-cd2c-11ea-92d0-b5b9a5875390",
+    "modelName": "keycar_graph",
+    "code": "",
+    "lastModifTS": "2020-07-23T23:06:31.582Z",
+    "persistenceSchemaVersion": "4",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "c17029f0-cd2c-11ea-92d0-b5b9a5875390",
+            "collectionName": "Pessoa",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "dc4f8f60-cd2f-11ea-92d0-b5b9a5875390",
+                    "name": "regiao",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "cb2e8f30-cd2d-11ea-92d0-b5b9a5875390",
+                    "name": "nome",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c17448a0-cd2c-11ea-92d0-b5b9a5875390"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "a82abe10-cd2c-11ea-92d0-b5b9a5875390",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "eae458b0-cd2c-11ea-92d0-b5b9a5875390",
+            "collectionName": "Carro",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "fecf8750-cd2c-11ea-92d0-b5b9a5875390",
+                    "name": "cor",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c1937e80-cd2e-11ea-92d0-b5b9a5875390",
+                    "name": "categoria",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "eaeda780-cd2c-11ea-92d0-b5b9a5875390"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "a82abe10-cd2c-11ea-92d0-b5b9a5875390",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "a82abe10-cd2c-11ea-92d0-b5b9a5875390",
+            "name": "keycar_graph_pesquisa",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "c17029f0-cd2c-11ea-92d0-b5b9a5875390",
+                "eae458b0-cd2c-11ea-92d0-b5b9a5875390"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "indexes": [],
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "2ca848b0-cd2d-11ea-92d0-b5b9a5875390",
+            "name": "vendido_por",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "eae458b0-cd2c-11ea-92d0-b5b9a5875390",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "c17029f0-cd2c-11ea-92d0-b5b9a5875390",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "a82abe10-cd2c-11ea-92d0-b5b9a5875390",
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5383cb30-cd2d-11ea-92d0-b5b9a5875390",
+                    "name": "data",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ]
+        },
+        {
+            "GUID": "77cae730-cd2d-11ea-92d0-b5b9a5875390",
+            "name": "comprou",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "c17029f0-cd2c-11ea-92d0-b5b9a5875390",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "eae458b0-cd2c-11ea-92d0-b5b9a5875390",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "a82abe10-cd2c-11ea-92d0-b5b9a5875390",
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9697cff0-cd2f-11ea-92d0-b5b9a5875390",
+                    "name": "regiao",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "550f30b0-cd2e-11ea-92d0-b5b9a5875390",
+                    "name": "data",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    },
+                    "relationshipType": "",
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "parentRelationship": ""
+                }
+            ]
+        }
+    ],
+    "users": [],
+    "idToNameHashTable": {
+        "a82abe10-cd2c-11ea-92d0-b5b9a5875390": "keycar_graph_pesquisa",
+        "c17029f0-cd2c-11ea-92d0-b5b9a5875390": "Pessoa",
+        "eae458b0-cd2c-11ea-92d0-b5b9a5875390": "Carro",
+        "fecf8750-cd2c-11ea-92d0-b5b9a5875390": "cor",
+        "2ca848b0-cd2d-11ea-92d0-b5b9a5875390": "vendido_por",
+        "5383cb30-cd2d-11ea-92d0-b5b9a5875390": "data",
+        "77cae730-cd2d-11ea-92d0-b5b9a5875390": "comprou",
+        "cb2e8f30-cd2d-11ea-92d0-b5b9a5875390": "nome",
+        "550f30b0-cd2e-11ea-92d0-b5b9a5875390": "data",
+        "c1937e80-cd2e-11ea-92d0-b5b9a5875390": "categoria",
+        "9697cff0-cd2f-11ea-92d0-b5b9a5875390": "regiao",
+        "dc4f8f60-cd2f-11ea-92d0-b5b9a5875390": "regiao"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "9b67fd01-cd2c-11ea-92d0-b5b9a5875390"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "9b67fd02-cd2c-11ea-92d0-b5b9a5875390"
+    },
+    "decorativeSymbols": [],
+    "dbVersion": "3.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2020-07-23T21:36:45.776Z",
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.19",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.1.9"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "c17029f0-cd2c-11ea-92d0-b5b9a5875390",
+                        "x": 183,
+                        "y": 168,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "eae458b0-cd2c-11ea-92d0-b5b9a5875390",
+                        "x": 278,
+                        "y": 140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hsl": {
+                                "h": 3.789473684210526,
+                                "s": 0.904761904761905,
+                                "l": 0.5882352941176471,
+                                "a": 1
+                            },
+                            "hex": "#f54337",
+                            "rgb": {
+                                "r": 245,
+                                "g": 67,
+                                "b": 55,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 3.789473684210526,
+                                "s": 0.7755102040816326,
+                                "v": 0.9607843137254902,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "2ca848b0-cd2d-11ea-92d0-b5b9a5875390",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "77cae730-cd2d-11ea-92d0-b5b9a5875390",
+                        "x": 60,
+                        "y": 60,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "GUID": "a82abe10-cd2c-11ea-92d0-b5b9a5875390"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "selectedCollections": [],
+                "decorativeSymbols": [],
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "c17029f0-cd2c-11ea-92d0-b5b9a5875390",
+                            "size": 100,
+                            "x": 150.54880481157494,
+                            "y": 136.98513420300088
+                        },
+                        {
+                            "GUID": "eae458b0-cd2c-11ea-92d0-b5b9a5875390",
+                            "size": 100,
+                            "x": 450.5737108512862,
+                            "y": 147.16237712975095
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 110.54880481157494,
+                            "y": 96.98513420300088,
+                            "GUID": "a82abe10-cd2c-11ea-92d0-b5b9a5875390"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "displayColorPicker": false,
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Carro",
+    "properties": {
+        "cor": {
+            "type": "string"
+        },
+        "categoria": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,604 @@
+{
+    "GUID": "c8d23690-cae6-11ea-827d-3d903bc1daf0",
+    "modelName": "keycar_cotacao",
+    "code": "",
+    "lastModifTS": "2020-07-23T23:02:55.302Z",
+    "persistenceSchemaVersion": "4",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "dbc52280-cae6-11ea-827d-3d903bc1daf0",
+            "collectionName": "cotacao_dolar",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "49e12750-cae7-11ea-827d-3d903bc1daf0",
+                    "name": "data_hora",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "557ec950-cae7-11ea-827d-3d903bc1daf0",
+                    "name": "cotacao",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "dbc74560-cae6-11ea-827d-3d903bc1daf0"
+            },
+            "isRestfulApi": false,
+            "mediaType": "",
+            "method": "",
+            "transaction": "",
+            "resources": "",
+            "endPoint": "",
+            "bucketId": "d8b23d30-cae6-11ea-827d-3d903bc1daf0",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "6c2d8f50-cae8-11ea-827d-3d903bc1daf0",
+            "collectionName": "cotacao_euro",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "6c2f3d00-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "data_hora",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "6c2f3d01-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "cotacao",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "6c2f3d02-cae8-11ea-827d-3d903bc1daf0"
+            },
+            "isRestfulApi": false,
+            "mediaType": "",
+            "method": "",
+            "transaction": "",
+            "resources": "",
+            "endPoint": "",
+            "bucketId": "d8b23d30-cae6-11ea-827d-3d903bc1daf0",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "7cb74370-cae8-11ea-827d-3d903bc1daf0",
+            "collectionName": "cotacao_euro",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "7cb96650-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "data",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "7cb96651-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "cotacao_inicial",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "9f730480-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "cotacao_final",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "7cb96652-cae8-11ea-827d-3d903bc1daf0"
+            },
+            "isRestfulApi": false,
+            "mediaType": "",
+            "method": "",
+            "transaction": "",
+            "resources": "",
+            "endPoint": "",
+            "bucketId": "8be9cc00-cae8-11ea-827d-3d903bc1daf0",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "ae2d28c0-cae8-11ea-827d-3d903bc1daf0",
+            "collectionName": "cotacao_dolar",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "ae308420-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "data",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "ae308421-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "cotacao_inicial",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "ae308422-cae8-11ea-827d-3d903bc1daf0",
+                    "name": "cotacao_final",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ae308423-cae8-11ea-827d-3d903bc1daf0"
+            },
+            "isRestfulApi": false,
+            "mediaType": "",
+            "method": "",
+            "transaction": "",
+            "resources": "",
+            "endPoint": "",
+            "bucketId": "8be9cc00-cae8-11ea-827d-3d903bc1daf0",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "d8b23d30-cae6-11ea-827d-3d903bc1daf0",
+            "name": "cotacoes_keycar_hora",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "dbc52280-cae6-11ea-827d-3d903bc1daf0",
+                "6c2d8f50-cae8-11ea-827d-3d903bc1daf0"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        },
+        {
+            "GUID": "8be9cc00-cae8-11ea-827d-3d903bc1daf0",
+            "name": "cotacoes_keycar_diario",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "7cb74370-cae8-11ea-827d-3d903bc1daf0",
+                "ae2d28c0-cae8-11ea-827d-3d903bc1daf0"
+            ],
+            "backgroundColor": {
+                "r": 156,
+                "g": 40,
+                "b": 177,
+                "a": 1
+            },
+            "show": true,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "idToNameHashTable": {
+        "d8b23d30-cae6-11ea-827d-3d903bc1daf0": "cotacoes_keycar_hora",
+        "dbc52280-cae6-11ea-827d-3d903bc1daf0": "cotacao_dolar",
+        "49e12750-cae7-11ea-827d-3d903bc1daf0": "data_hora",
+        "557ec950-cae7-11ea-827d-3d903bc1daf0": "cotacao",
+        "6c2f3d00-cae8-11ea-827d-3d903bc1daf0": "data_hora",
+        "6c2f3d01-cae8-11ea-827d-3d903bc1daf0": "cotacao",
+        "6c2d8f50-cae8-11ea-827d-3d903bc1daf0": "cotacao_euro",
+        "7cb96650-cae8-11ea-827d-3d903bc1daf0": "data",
+        "7cb96651-cae8-11ea-827d-3d903bc1daf0": "cotacao_inicial",
+        "7cb74370-cae8-11ea-827d-3d903bc1daf0": "cotacao_euro",
+        "8be9cc00-cae8-11ea-827d-3d903bc1daf0": "cotacoes_keycar_diario",
+        "9f730480-cae8-11ea-827d-3d903bc1daf0": "cotacao_final",
+        "ae308420-cae8-11ea-827d-3d903bc1daf0": "data",
+        "ae308421-cae8-11ea-827d-3d903bc1daf0": "cotacao_inicial",
+        "ae308422-cae8-11ea-827d-3d903bc1daf0": "cotacao_final",
+        "ae2d28c0-cae8-11ea-827d-3d903bc1daf0": "cotacao_dolar"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "c8d25da0-cae6-11ea-827d-3d903bc1daf0"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "c8d25da1-cae6-11ea-827d-3d903bc1daf0"
+    },
+    "decorativeSymbols": [],
+    "dbVendor": "Plain JSON--no DB",
+    "appTarget": "JSON",
+    "creationTS": "2020-07-21T00:11:54.873Z",
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.1.9"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "dbc52280-cae6-11ea-827d-3d903bc1daf0",
+                        "x": 98,
+                        "y": 128,
+                        "width": 251,
+                        "height": 57,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "6c2d8f50-cae8-11ea-827d-3d903bc1daf0",
+                        "x": 102,
+                        "y": 205,
+                        "width": 251,
+                        "height": 57,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "7cb74370-cae8-11ea-827d-3d903bc1daf0",
+                        "x": 493,
+                        "y": 131,
+                        "width": 244,
+                        "height": 71,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ae2d28c0-cae8-11ea-827d-3d903bc1daf0",
+                        "x": 491,
+                        "y": 222,
+                        "width": 251,
+                        "height": 71,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 58,
+                        "y": 88,
+                        "GUID": "d8b23d30-cae6-11ea-827d-3d903bc1daf0"
+                    },
+                    {
+                        "x": 451,
+                        "y": 91,
+                        "GUID": "8be9cc00-cae8-11ea-827d-3d903bc1daf0"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "selectedCollections": [],
+                "decorativeSymbols": [],
+                "graphView": {
+                    "erd": [],
+                    "buckets": [
+                        {
+                            "x": 52.01840684175927,
+                            "y": 62.10051116784625,
+                            "GUID": "d8b23d30-cae6-11ea-827d-3d903bc1daf0"
+                        },
+                        {
+                            "x": 455.4114941659978,
+                            "y": 75.36082052058137,
+                            "GUID": "8be9cc00-cae8-11ea-827d-3d903bc1daf0"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "displayColorPicker": false,
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}

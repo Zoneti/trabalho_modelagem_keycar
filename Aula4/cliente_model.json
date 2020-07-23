@@ -1,0 +1,535 @@
+{
+    "GUID": "32547d10-cae9-11ea-827d-3d903bc1daf0",
+    "modelName": "New Model",
+    "code": "",
+    "lastModifTS": "2020-07-21T00:33:37.180Z",
+    "persistenceSchemaVersion": "4",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "3d61ed00-cae9-11ea-827d-3d903bc1daf0",
+            "collectionName": "cliente",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "objectId",
+                    "format": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "sample": "",
+                    "GUID": "b94578b0-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "id_cliente",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "437986d0-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "nome",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "48907980-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "endereco_comercial",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "4d090950-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "endereco_residencial",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "5240a360-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "telefone_fixo",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "array",
+                    "properties": [
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "71abd9e0-cae9-11ea-827d-3d903bc1daf0",
+                            "description": "",
+                            "comments": "",
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "displayName": "numero",
+                            "error": {
+                                "displayName": false,
+                                "minLength": false,
+                                "maxLength": false
+                            }
+                        }
+                    ],
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "additionalItems": true,
+                    "minItems": 0,
+                    "maxItems": 100,
+                    "uniqueItems": false,
+                    "enum": [],
+                    "GUID": "5c70aba0-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "celulares",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "minItems": false,
+                        "maxItems": false
+                    }
+                },
+                {
+                    "type": "array",
+                    "properties": [
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "959322a0-cae9-11ea-827d-3d903bc1daf0",
+                            "description": "",
+                            "comments": "",
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "displayName": "endereco",
+                            "error": {
+                                "displayName": false
+                            }
+                        }
+                    ],
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "additionalItems": true,
+                    "minItems": 0,
+                    "maxItems": 100,
+                    "uniqueItems": false,
+                    "enum": [],
+                    "GUID": "900c3010-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "emails",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "minItems": false,
+                        "maxItems": false
+                    }
+                },
+                {
+                    "type": "document",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "properties": [
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "a2ecf390-cae9-11ea-827d-3d903bc1daf0",
+                            "name": "cpf",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "a6781620-cae9-11ea-827d-3d903bc1daf0",
+                            "name": "rg",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "a8f10560-cae9-11ea-827d-3d903bc1daf0",
+                            "name": "cnh",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        }
+                    ],
+                    "dependencies": [],
+                    "minProperties": "",
+                    "maxProperties": "",
+                    "additionalProperties": false,
+                    "enum": [],
+                    "GUID": "9d845e70-cae9-11ea-827d-3d903bc1daf0",
+                    "name": "documentos",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3d65e4a0-cae9-11ea-827d-3d903bc1daf0"
+            },
+            "capped": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "size": "",
+            "max": "",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "key": "",
+                "hashed": false,
+                "unique": true,
+                "numInitialChunks": "",
+                "collation": "null",
+                "zone": "",
+                "comments": ""
+            },
+            "bucketId": "349cbf60-cae9-11ea-827d-3d903bc1daf0",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "349cbf60-cae9-11ea-827d-3d903bc1daf0",
+            "name": "keycar_cliente",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "3d61ed00-cae9-11ea-827d-3d903bc1daf0"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "idToNameHashTable": {
+        "349cbf60-cae9-11ea-827d-3d903bc1daf0": "keycar_cliente",
+        "3d61ed00-cae9-11ea-827d-3d903bc1daf0": "cliente",
+        "437986d0-cae9-11ea-827d-3d903bc1daf0": "nome",
+        "48907980-cae9-11ea-827d-3d903bc1daf0": "endereco_comercial",
+        "4d090950-cae9-11ea-827d-3d903bc1daf0": "endereco_residencial",
+        "5240a360-cae9-11ea-827d-3d903bc1daf0": "telefone_fixo",
+        "5c70aba0-cae9-11ea-827d-3d903bc1daf0": "celulares",
+        "66474940-cae9-11ea-827d-3d903bc1daf0": "numero",
+        "900c3010-cae9-11ea-827d-3d903bc1daf0": "emails",
+        "9d845e70-cae9-11ea-827d-3d903bc1daf0": "documentos",
+        "a2ecf390-cae9-11ea-827d-3d903bc1daf0": "cpf",
+        "a6781620-cae9-11ea-827d-3d903bc1daf0": "rg",
+        "a8f10560-cae9-11ea-827d-3d903bc1daf0": "cnh",
+        "b94578b0-cae9-11ea-827d-3d903bc1daf0": "id_cliente"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "3254a420-cae9-11ea-827d-3d903bc1daf0"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "3254a421-cae9-11ea-827d-3d903bc1daf0"
+    },
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "hideModelViews": true,
+    "appTarget": "MONGODB",
+    "creationTS": "2020-07-21T00:29:10.881Z",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.1.9"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "3d61ed00-cae9-11ea-827d-3d903bc1daf0",
+                        "x": 127,
+                        "y": 176,
+                        "width": 271,
+                        "height": 211,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 87,
+                        "y": 136,
+                        "GUID": "349cbf60-cae9-11ea-827d-3d903bc1daf0"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}

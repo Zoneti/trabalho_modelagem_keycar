@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="913308D0-32C2-C4CF-846E-17862733EE62" name="VENDA">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>4E297548-21B4-45A9-6328-AF79CB3045F1</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_venda" id="E0904C79-0693-EB53-BF45-2585CF018E8C">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>5C977B43-FDC0-E6A1-C5F0-A01954AA3314</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroNotaFiscal" id="E1319AF4-C45B-9368-0FC5-33D4B85D9BFC">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>91A4FC79-A8D9-12C0-B996-A5765935A4D9</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataVenda" id="5DFD8599-E5CD-FA43-1ACF-AB8209A1FE16">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>7C8E8B3F-694F-5850-BB26-35ACA5D1D768</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorTotal" id="27E5B788-2301-9F43-6936-73D76CEF8555">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>52E3A9E1-D60D-0159-9E54-D2C8F6E46FF6</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTES_id_cliente" id="CD48BA8D-6864-1616-83E8-2E977EEBD557">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>986C2845-9293-A93C-8972-D1E296FEF3BC</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E79AE857-9CB9-0992-39D3-8C315C916BA4" referredColumn="71E62529-42AD-C671-BA51-7874C0E29F6D"/>
+</associations>
+</Column>
+<Column name="CONCESSIONARIA_id_concessionaria" id="513EC15E-AD90-B380-A691-2538E41194E5">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>95F47622-CE98-4722-7CF1-05C996E49E9A</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC5C903B-B1FB-D535-CBED-A38CA4D0D040" referredColumn="943F295E-94E7-EF1B-29E7-D6E315F85189"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D805A0EA-E5B3-9711-21B4-9F1B17733F17" name="VENDA_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>0BC1419D-1AAC-BF0B-9769-429A4293526A</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0904C79-0693-EB53-BF45-2585CF018E8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B233B481-889E-3FF5-8793-609CE0C19C35" name="VENDA_CLIENTES_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>C834B5A6-16A6-F877-DF03-6BA69ECCF6C3</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD48BA8D-6864-1616-83E8-2E977EEBD557"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8963E18E-CE39-7D51-A727-5A6339145D93" name="VENDA_CONCESSIONARIA_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>47446D0E-89F3-5729-5DC1-8E7F7D2C867F</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513EC15E-AD90-B380-A691-2538E41194E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

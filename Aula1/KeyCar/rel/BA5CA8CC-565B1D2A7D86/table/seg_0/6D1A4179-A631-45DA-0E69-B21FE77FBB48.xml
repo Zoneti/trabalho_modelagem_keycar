@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D1A4179-A631-45DA-0E69-B21FE77FBB48" name="PRODUTOS">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>C068C110-40C5-2967-4330-2C0C01F7E8EA</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="439FCD3F-63D8-4051-D67D-11D5EA836336">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>C4C24BC3-F74B-8516-158C-BB929E6C1CB7</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="01CA57C4-9ECC-4F91-7E6B-B57BF6801173">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>21AE0ED1-F0CB-88D6-F074-3E30535897B0</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="B17BB3A0-AA5E-C35F-A55C-9EF7CECF448A">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>A493F017-292D-C2C6-5DAF-B25BFB8CC774</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000 CHAR</dataTypeSize>
+<ownDataTypeParameters>5000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="ADA8CAE6-770A-638F-5FB6-B00D3F5C7198">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>80CE042D-BD15-9A2E-1012-98569BED66E6</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_id_tipo" id="88B08D46-EB4B-92B4-969E-60C7CD0C30CF">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>61685FBF-9B48-0AB7-DD7A-315A190A812B</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19A604A8-2D02-D43B-7375-523B72944EC2" referredColumn="C467B8B7-3633-A2DC-57D5-FC6B9D39E7D9"/>
+</associations>
+</Column>
+<Column name="MARCA_id_marca" id="70C5C5CC-95CE-7147-8783-33D254732D15">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>F59F53B0-FA31-19D0-3F48-8E5BE568E32F</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9EB7EAE-80E9-7BBB-AAAE-E98B37E538E7" referredColumn="DA9CB597-FE10-BA3F-3ED2-6CCC4D7F7890"/>
+</associations>
+</Column>
+<Column name="unidadeMedida" id="27BE5551-809D-CC43-47F5-F87273D3974C">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>A7C57B27-6FF4-8922-12A9-B5251A4436FD</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeMinima" id="79F353A6-77A1-3B1C-A2DC-A0D157BFBECE">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>76224208-F70D-2DDF-ABFA-B2518FBABCF1</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="novo" id="9D045014-566B-EFC2-A1B1-F2F8AE3BF0B8">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>8B1765BC-6F64-BDFC-15DA-6B0C8DA9BBE7</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB269691-433B-E2A3-DCE0-97AF62D8FC45" name="PRODUTOS_PK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>52E3C60C-3014-B4B1-F71A-D7A21D403D10</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439FCD3F-63D8-4051-D67D-11D5EA836336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A9B81B9-B173-9774-FECB-D19162478CC3" name="PRODUTOS_TIPO_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>423BFE1D-75F8-E4CB-0A1A-D62764CDE681</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88B08D46-EB4B-92B4-969E-60C7CD0C30CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CCF430D-369B-E5C9-8EDF-9FC3F7CCC07F" name="PRODUTOS_MARCA_FK">
+<createdBy>gzperes</createdBy>
+<createdTime>2020-07-23 23:12:28 UTC</createdTime>
+<generatorID>BF56E63E-A837-2B26-CDFB-EA7BF0475B4D</generatorID>
+<ownerDesignName>KeyCar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70C5C5CC-95CE-7147-8783-33D254732D15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "cotacao_dolar",
+    "additionalProperties": false,
+    "properties": {
+        "data_hora": {
+            "type": "string"
+        },
+        "cotacao": {
+            "type": "number"
+        }
+    }
+}
